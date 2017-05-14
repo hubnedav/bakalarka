@@ -1,0 +1,3254 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.14)  14 MAY 2017 23:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**FITthesisXE.cls
+(./FITthesisXE.cls
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `template/FITthesisXE'.
+
+Package: template/FITthesisXE 2013/04/26 CTU FIT customized class for theses
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \newif \if@
+                thesistypedefined
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--31
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \newif \if@
+                langdefined
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--45
+[]
+ []
+
+
+! Class FITthesis Error: Language not specified.
+
+See the FITthesis class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ...e or option english for English language.}
+                                                  
+Add option czech for Czech language or option english for English language.
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count79
+\c@@memmarkcntra=\count80
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+Package: ifetex 2011/12/15 v1.2 ifetex
+
+(/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+Runaway argument?
+@nnil ifx external@font @empty @latex@error {Font expandafter string ETC.
+! File ended while scanning use of reserved@f.
+<inserted text> 
+                par 
+l.759         \input{mem1\@ptsize.clo}
+                                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+binding=skip48
+spinemargin=skip49
+foremargin=skip50
+uppermargin=skip51
+lowermargin=skip52
+headdrop=skip53
+! Arithmetic overflow.
+<recently read> baselineskip 
+                             
+l.1041   \divide\@tempdima\baselineskip
+                                       
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+normalrulethickness=skip54
+mem@maxheadheight=skip55
+mem@maxfootheight=skip56
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.1902 \makepagestyle{empty}
+                            
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.1902 \makepagestyle{empty}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.1902 \makepagestyle{empty}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.1902 \makepagestyle{empty}
+                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.1904 \makepagestyle{plain}
+                            
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.1904 \makepagestyle{plain}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.1904 \makepagestyle{plain}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.1904 \makepagestyle{plain}
+                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.1908 \makepagestyle{simple}
+                             
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.1908 \makepagestyle{simple}
+                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.1908 \makepagestyle{simple}
+                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.1908 \makepagestyle{simple}
+                             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2018   \makepagestyle{headings}
+                                 
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2018   \makepagestyle{headings}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2018   \makepagestyle{headings}
+                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2018   \makepagestyle{headings}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2079 \makepagestyle{myheadings}
+                                 
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2079 \makepagestyle{myheadings}
+                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2079 \makepagestyle{myheadings}
+                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2079 \makepagestyle{myheadings}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2100 \makepagestyle{ruled}
+                            
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2100 \makepagestyle{ruled}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2100 \makepagestyle{ruled}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2100 \makepagestyle{ruled}
+                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2135 \makepagestyle{Ruled}
+                            
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2135 \makepagestyle{Ruled}
+                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2135 \makepagestyle{Ruled}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2135 \makepagestyle{Ruled}
+                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+l.2136 \makerunningwidth{Ruled}{
+                                1.1\textwidth}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+! LaTeX Error: Missing begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2136 \makerunningwidth{Ruled}{1
+                                 .1\textwidth}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2136 \makerunningwidth{Ruled}{1.1\textwidth}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2136 \makerunningwidth{Ruled}{1.1\textwidth}
+                                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2136 \makerunningwidth{Ruled}{1.1\textwidth}
+                                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2136--2144
+[]
+ []
+
+headwidth=skip57
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2147 \makepagestyle{companion}
+                                
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2147 \makepagestyle{companion}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2147 \makepagestyle{companion}
+                                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2147 \makepagestyle{companion}
+                                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+l.2151 \makerunningwidth{companion}{
+                                    \headwidth}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2151 \makerunningwidth{companion}{\headwidth}
+                                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2151 \makerunningwidth{companion}{\headwidth}
+                                               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2151 \makerunningwidth{companion}{\headwidth}
+                                               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Use of m@mopthfwidth doesn't match its definition.
+makepagestyle ... {#1}{}{}{}makerunningwidth {#1}{
+                                                  textwidth }makeheadpositio...
+l.2213 \makepagestyle{showlocs}
+                               
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.2213 \makepagestyle{showlocs}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.2213 \makepagestyle{showlocs}
+                               
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.2213 \makepagestyle{showlocs}
+                               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c@storedpagenumber=count81
+Runaway argument?
+@nnil ifx external@font @empty @latex@error {Font expandafter string ETC.
+! Paragraph ended before reserved@f was complete.
+<to be read again> 
+                   par 
+l.2262 
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+memPD=dimen102
+
+! LaTeX Error: Command \minipage already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2399   \hbox{\vrule depth \memPD width \z@}}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+m@mabparskip=skip58
+thanksmarkwidth=skip59
+thanksmarksep=skip60
+droptitle=skip61
+
+! LaTeX Error: Command \maketitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2546   \vskip 1.5em}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c@book=count82
+c@part=count83
+c@chapter=count84
+c@section=count85
+c@subsection=count86
+c@subsubsection=count87
+c@paragraph=count88
+c@subparagraph=count89
+beforechapskip=skip62
+midchapskip=skip63
+afterchapskip=skip64
+chapindent=skip65
+bottomsectionskip=skip66
+secindent=skip67
+beforesecskip=skip68
+aftersecskip=skip69
+subsecindent=skip70
+beforesubsecskip=skip71
+aftersubsecskip=skip72
+subsubsecindent=skip73
+beforesubsubsecskip=skip74
+aftersubsubsecskip=skip75
+paraindent=skip76
+beforeparaskip=skip77
+afterparaskip=skip78
+subparaindent=skip79
+beforesubparaskip=skip80
+aftersubparaskip=skip81
+pfbreakskip=skip82
+c@@ppsavesec=count90
+c@@ppsaveapp=count91
+ragrparindent=dimen103
+everylistparindent=dimen104
+parsepi=skip83
+topsepi=skip84
+itemsepi=skip85
+parsepii=skip86
+topsepii=skip87
+topsepiii=skip88
+itemsepii=skip89
+itemsepiii=skip90
+partopsepii=skip91
+partopsepiii=skip92
+m@msavetopsep=skip93
+m@msavepartopsep=skip94
+@enLab=toks14
+abstitleskip=skip95
+absleftindent=skip96
+abs@leftindent=dimen105
+absrightindent=skip97
+absparindent=skip98
+absparsep=skip99
+c@vslineno=count92
+c@poemline=count93
+c@modulo@vs=count94
+c@memfvsline=count95
+
+! LaTeX Error: Command \leftskip already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4934 \newlength{\vleftskip}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> vleftskip 
+                     
+l.4935   \setlength{\vleftskip}{3em}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4935   \setlength{\vleftskip}{3em}
+                                    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Command \rightskip already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4936 \newlength{\vrightskip}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> vrightskip 
+                      
+l.4937   \setlength{\vrightskip}{1em}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4935--4938
+[]
+ []
+
+stanzaskip=skip100
+versewidth=skip101
+vgap=skip102
+
+! LaTeX Error: Command \in already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4948 \newcommand{\vin}{\hspace*{\vgap}}
+                                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \indent already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4949 \newlength{\vindent}
+                            \setlength{\vindent}{2\vgap}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> vindent 
+                   
+l.4949 ...h{\vindent} \setlength{\vindent}{2\vgap}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4949 ...h{\vindent} \setlength{\vindent}{2\vgap}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 2 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   relax 
+l.4949 ...h{\vindent} \setlength{\vindent}{2\vgap}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   relax 
+l.4949 ...h{\vindent} \setlength{\vindent}{2\vgap}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+vleftmargin=dimen106
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4949--4954
+[]
+ []
+
+c@verse=count96
+c@chrsinstr=count97
+beforepoemtitleskip=skip103
+afterpoemtitleskip=skip104
+c@poem=count98
+beforePoemTitleskip=skip105
+midPoemTitleskip=skip106
+afterPoemTitleskip=skip107
+col@sep=dimen107
+extrarowheight=dimen108
+NC@list=toks15
+extratabsurround=skip108
+backup@length=skip109
+
+! LaTeX Error: reserved@a undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5613       \ifnum0=`{\fi}}
+                            
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+TX@col@width=dimen109
+TX@old@table=dimen110
+TX@old@col=dimen111
+TX@target=dimen112
+TX@delta=dimen113
+TX@cols=count99
+TX@ftn=toks16
+heavyrulewidth=dimen114
+lightrulewidth=dimen115
+cmidrulewidth=dimen116
+belowrulesep=dimen117
+belowbottomsep=dimen118
+aboverulesep=dimen119
+abovetopsep=dimen120
+cmidrulesep=dimen121
+cmidrulekern=dimen122
+defaultaddspace=dimen123
+@cmidla=count100
+@cmidlb=count101
+@aboverulesep=dimen124
+@belowrulesep=dimen125
+@thisruleclass=count102
+@lastruleclass=count103
+@thisrulewidth=dimen126
+ctableftskip=skip110
+ctabrightskip=skip111
+
+! LaTeX Error: Command \tabular already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6061   \gdef\@halignto{to\hsize}\NC@tabular}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+abovecolumnspenalty=count104
+@linestogo=count105
+@cellstogo=count106
+@cellsincolumn=count107
+crtok=toks17
+@mincolumnwidth=dimen127
+c@newflo@tctr=count108
+mem@margin@floatbox=box26
+@contcwidth=skip112
+@contindw=skip113
+abovecaptionskip=skip114
+belowcaptionskip=skip115
+subfloattopskip=skip116
+subfloatcapskip=skip117
+subfloatcaptopadj=skip118
+subfloatbottomskip=skip119
+subfloatlabelskip=skip120
+subfloatcapmargin=dimen128
+c@@contsubnum=count109
+
+! LaTeX Error: Command \memlistsubcaptions already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6939   \gdef\@memsubfigcaptionlist{}}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+m@mscap@capbox=box27
+m@mscap@fbox=box28
+sidecapsep=dimen129
+sidecapwidth=dimen130
+m@m@tempdima=dimen131
+m@mscapraise=dimen132
+sidecapraise=dimen133
+m@mscapmainwidth=dimen134
+m@mscaplkern=dimen135
+beforeepigraphskip=skip121
+afterepigraphskip=skip122
+epigraphwidth=skip123
+epigraphrule=skip124
+
+! LaTeX Error: Command \item already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7385   \end{minipage}}}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining em on input line 7551.
+LaTeX Info: Redefining emph on input line 7559.
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7561 ...mand*{\fref}[1]{\figurerefname~\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7562 ...mmand*{\tref}[1]{\tablerefname~\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7563 ...nd*{\pref}[1]{\pagerefname~\pageref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7564 ...and*{\Aref}[1]{\appendixrefname\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7565 ...command*{\Bref}[1]{\bookrefname\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7566 ...command*{\Pref}[1]{\partrefname\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7567 ...mand*{\Cref}[1]{\chapterrefname\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7568 ...mand*{\Sref}[1]{\sectionrefname\ref{#1}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+tocentryskip=skip125
+tocbaseline=skip126
+cftparskip=skip127
+
+! LaTeX Error: Command \@book already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7841   \fi}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+cftbeforebookskip=skip128
+cftbookindent=dimen136
+cftbooknumwidth=dimen137
+
+! LaTeX Error: Command \@part already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7905   \fi}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+cftbeforepartskip=skip129
+cftpartindent=skip130
+cftpartnumwidth=skip131
+
+! LaTeX Error: Command \@chapapp already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7967   \fi}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \@chapter already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7970   \l@chapapp{#1}{#2}{\cftchaptername}}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+cftbeforechapterskip=skip132
+cftchapterindent=skip133
+cftchapternumwidth=skip134
+cftbeforesectionskip=skip135
+cftsectionindent=skip136
+cftsectionnumwidth=skip137
+cftbeforesubsectionskip=skip138
+cftsubsectionindent=skip139
+cftsubsectionnumwidth=skip140
+cftbeforesubsubsectionskip=skip141
+cftsubsubsectionindent=skip142
+cftsubsubsectionnumwidth=skip143
+cftbeforeparagraphskip=skip144
+cftparagraphindent=skip145
+cftparagraphnumwidth=skip146
+cftbeforesubparagraphskip=skip147
+cftsubparagraphindent=skip148
+cftsubparagraphnumwidth=skip149
+prechapterprecisshift=dimen138
+c@maxsecnumdepth=count110
+bibindent=dimen139
+bibitemsep=skip150
+indexcolsep=skip151
+indexrule=skip152
+
+! LaTeX Error: Command \@index already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8346 ...{\l@index}{\@dottedtocline{1}{0em}{0pt}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \@wrindexm@m already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8418   \@@@wrindexm@m}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+indexmarkstyle=toks18
+@indexbox=insert199
+glossarycolsep=dimen140
+glossaryrule=dimen141
+
+! LaTeX Error: Command \@wrglom@m already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8674   \memwritetoglo}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+sideparvshift=skip153
+sideins=insert198
+sidebartopsep=skip154
+sidebarhsep=skip155
+sidebarvsep=skip156
+sidebarwidth=skip157
+
+Class memoir Warning: sidebarhsep is zero or negative on input line 9009.
+
+
+Class memoir Warning: sidebarheight is zero or negative on input line 9009.
+
+footmarkwidth=skip158
+footmarksep=skip159
+footparindent=skip160
+! Use of setfootnoterule doesn't match its definition.
+l.9220 \setfootnoterule{
+                        3pt}{0.4\columnwidth}{\normalrulethickness}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+! LaTeX Error: Missing begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9220 \setfootnoterule{3
+                         pt}{0.4\columnwidth}{\normalrulethickness}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+! Extra }, or forgotten endgroup.
+l.9220 \setfootnoterule{3pt}
+                            {0.4\columnwidth}{\normalrulethickness}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.9220 \setfootnoterule{3pt}{0.4\columnwidth}
+                                             {\normalrulethickness}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.9220 \setfootnoterule{3pt}{0.4\columnwidth}
+                                             {\normalrulethickness}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.9220 ...}{0.4\columnwidth}{\normalrulethickness}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.9220 ...}{0.4\columnwidth}{\normalrulethickness}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9220--9221
+[] 
+ []
+
+footinsdim=skip161
+footinsv@r=insert197
+@mpfootinsv@r=insert196
+m@m@k=count111
+m@m@h=dimen142
+m@mipn@skip=skip162
+! Undefined control sequence.
+foottextfont ->footnotesize 
+                            
+l.9759 ...nterparanoteglue{1em plus.4em minus.4em}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+sidefootins=insert195
+sidefootadjust=skip163
+sidefootheight=skip164
+sidefoothsep=skip165
+sidefootvsep=skip166
+sidefootwidth=skip167
+
+Class memoir Warning: sidefoothsep is zero or negative on input line 10180.
+
+
+Class memoir Warning: sidefootvsep is zero or negative on input line 10180.
+
+
+! Class memoir Error: sidefootheight is zero or negative.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10180 ...{\normalfont\footnotesize}{\textheight}
+                                                  %
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+m@mdownsf=skip168
+c@sidefootnote=count112
+sidefootmarkwidth=skip169
+sidefootmarksep=skip170
+sidefootparindent=skip171
+c@pagenote=count113
+c@pagenoteshadow=count114
+mem@pn@lastkern=skip172
+every@verbatim=toks19
+afterevery@verbatim=toks20
+verbatim@line=toks21
+tab@position=count115
+verbatim@in@stream=read1
+verbatimindent=skip173
+verbatim@out=write3
+bvboxsep=skip174
+c@memfbvline=count116
+c@bvlinectr=count117
+bvnumlength=skip175
+! Argument of reserved@f has an extra }.
+<inserted text> 
+                par 
+l.11254 \settowidth{\bvnumlength}{\normalfont 999}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil ifx external@font @empty @latex@error {Font expandafter string ETC.
+! Paragraph ended before reserved@f was complete.
+<to be read again> 
+                   par 
+l.11254 \settowidth{\bvnumlength}{\normalfont 999}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.11254 \settowidth{\bvnumlength}{\normalfont 999}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten endgroup.
+@settodim #1#2#3->setbox @tempboxa hbox {{#3}}
+                                              #2#1@tempboxa setbox @tempboxa...
+l.11254 \settowidth{\bvnumlength}{\normalfont 999}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \vbox already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11352   \renewcommand{\bvendrulehook}{\hrule}}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+fb@frw=dimen143
+fb@frh=dimen144
+FrameRule=dimen145
+FrameSep=dimen146
+
+! LaTeX Error: Command \frame already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11633  {\endMakeFramed}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c@cp@cntr=count118
+LaTeX Info: Redefining : on input line 12068.
+LaTeX Info: Redefining ! on input line 12070.
+c@ism@mctr=count119
+c@xsm@mctr=count120
+c@csm@mctr=count121
+c@ksm@mctr=count122
+c@xksm@mctr=count123
+c@cksm@mctr=count124
+c@msm@mctr=count125
+c@xmsm@mctr=count126
+c@cmsm@mctr=count127
+c@bsm@mctr=count128
+c@workm@mctr=count129
+
+! LaTeX Error: Command \cardinal already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12293   \endgroup}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \ordinal already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12323 }
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c@sheetsequence=count130
+c@lastsheet=count131
+c@lastpage=count132
+! Undefined control sequence.
+vlvnumfont ->small 
+                   rmfamily 
+l.12884 ...towidth{\bvnumlength}{\vlvnumfont 9999}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of reserved@f has an extra }.
+<inserted text> 
+                par 
+l.12884 ...towidth{\bvnumlength}{\vlvnumfont 9999}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil ifx external@font @empty @latex@error {Font expandafter string ETC.
+! Paragraph ended before reserved@f was complete.
+<to be read again> 
+                   par 
+l.12884 ...towidth{\bvnumlength}{\vlvnumfont 9999}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.12884 ...towidth{\bvnumlength}{\vlvnumfont 9999}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten endgroup.
+@settodim #1#2#3->setbox @tempboxa hbox {{#3}}
+                                              #2#1@tempboxa setbox @tempboxa...
+l.12884 ...towidth{\bvnumlength}{\vlvnumfont 9999}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing endgroup inserted.
+<inserted text> 
+                endgroup 
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing endgroup inserted.
+<inserted text> 
+                endgroup 
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12895   \onecolumn
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Argument of reserved@f has an extra }.
+<inserted text> 
+                par 
+l.12895   \onecolumn
+                    
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+@nnil ifx external@font @empty @latex@error {Font expandafter string ETC.
+! Paragraph ended before reserved@f was complete.
+<to be read again> 
+                   par 
+l.12895   \onecolumn
+                    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten endgroup.
+<recently read> }
+                 
+l.12895   \onecolumn
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten endgroup.
+nopfbreakOutput ...else global vsize maxdimen fi }
+                                                  
+l.12895   \onecolumn
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten endgroup.
+<output> {pfbreakOutput }
+                         
+l.12895   \onecolumn
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c@figure=count133
+c@lofdepth=count134
+cftbeforefigureskip=skip176
+cftfigureindent=skip177
+cftfigurenumwidth=skip178
+c@table=count135
+c@lotdepth=count136
+cftbeforetableskip=skip179
+cfttableindent=skip180
+cfttablenumwidth=skip181
+Package abstract [2008/07/23] (with options ) emulated by memoir.
+Package appendix [2008/07/23] (with options ) emulated by memoir.
+Package array [2008/09/09] (with options ) emulated by memoir.
+Package booktabs [2016/05/16] (with options ) emulated by memoir.
+Package ccaption [2008/07/23] (with options ) emulated by memoir.
+Package changepage [2008/07/23] (with options ) emulated by memoir.
+Package chngcntr [2008/07/23] (with options ) emulated by memoir.
+Package chngpage [2008/07/23] (with options ) emulated by memoir.
+Package crop (with options ) emulated by memoir.
+Package dcolumn [2008/07/23] (with options ) emulated by memoir.
+Package delarray [2008/07/23] (with options ) emulated by memoir.
+Package enumerate [2008/07/23] (with options ) emulated by memoir.
+Package epigraph [2008/07/23] (with options ) emulated by memoir.
+Package ifmtarg [2008/07/23] (with options ) emulated by memoir.
+Package index [2008/07/23] (with options ) emulated by memoir.
+Package makeidx [2008/07/23] (with options ) emulated by memoir.
+Package moreverb [2008/07/23] (with options ) emulated by memoir.
+Package mparhack [2008/07/23] (with options ) emulated by memoir.
+Package needspace [2008/07/23] (with options ) emulated by memoir.
+Package newfile [2008/07/23] (with options ) emulated by memoir.
+Package nextpage [2008/07/23] (with options ) emulated by memoir.
+Package pagenote [2008/07/23] (with options ) emulated by memoir.
+Package parskip [2008/07/23] (with options ) emulated by memoir.
+Package patchcmd [2008/07/23] (with options ) emulated by memoir.
+Package setspace [2008/07/23] (with options ) emulated by memoir.
+Package shortvrb [2008/07/23] (with options ) emulated by memoir.
+Package showidx [2008/07/23] (with options ) emulated by memoir.
+Package tabularx [2008/07/23] (with options ) emulated by memoir.
+Package titleref [2008/07/23] (with options ) emulated by memoir.
+Package titling [2008/07/23] (with options ) emulated by memoir.
+Package tocbibind [2008/07/23] (with options ) emulated by memoir.
+Package tocloft [2008/07/23] (with options ) emulated by memoir.
+Package tocvsec2 [2008/07/23] (with options ) emulated by memoir.
+Package verbatim [2008/07/23] (with options ) emulated by memoir.
+Package verse [2008/07/23] (with options ) emulated by memoir.
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+(/usr/share/texlive/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+KV@toks@=toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+
+! LaTeX Error: Command \captionsetup already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...har[\caption@setup@options\caption@setup}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \clearcaptionsetup already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285   \@testopt\@@clearcaptionsetup{}}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+captionmargin=dimen147
+captionmargin@=dimen148
+captionwidth=dimen149
+caption@tempdima=dimen150
+caption@indent=dimen151
+caption@parindent=dimen152
+caption@hangindent=dimen153
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+! Undefined control sequence.
+<argument> @captionsetup 
+                         {@gobble }
+l.1336 \captionsetup{
+                     style=default,position=default,%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of @gobble has an extra }.
+<inserted text> 
+                par 
+l.1336 \captionsetup{
+                     style=default,position=default,%
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before @gobble was complete.
+<to be read again> 
+                   par 
+l.1336 \captionsetup{
+                     style=default,position=default,%
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+)
+c@float@type=count137
+float@exts=toks23
+
+
+! LaTeX Error: Command \newfloat already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 ...ewFloatType{#1}{placement=#2,fileext=#3}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+float@box=box29
+@floatcapt=box30
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+FR@everyfloat=toks24
+flrow@foot=insert194
+! Undefined control sequence.
+<argument> @captionsetup 
+                         {@gobble }
+l.498 \captionsetup[
+                    floatfoot]{labelformat=empty,labelsep=none}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of @gobble has an extra }.
+<inserted text> 
+                par 
+l.498 \captionsetup[
+                    floatfoot]{labelformat=empty,labelsep=none}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before @gobble was complete.
+<to be read again> 
+                   par 
+l.498 \captionsetup[
+                    floatfoot]{labelformat=empty,labelsep=none}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+FB@wd=dimen154
+FBo@wd=dimen155
+FBc@wd=dimen156
+FBo@ht=skip182
+FBc@ht=skip183
+FBf@ht=skip184
+FBo@max=skip185
+FBc@max=skip186
+FBf@max=skip187
+c@FBl@b=count138
+
+! LaTeX Error: Command \floatbox already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756 \@ifdefinable\@floatbox{}
+                               \@ifdefinable\@@floatbox{}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+floatbox@depth=count139
+
+! LaTeX Error: Command \@@floatbox already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.762 \@ifdefinable\@@@floatbox{}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c@FRobj=count140
+c@FRsobj=count141
+
+! LaTeX Error: Command \hsize already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 \newlength\Xhsize
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+sXhsize=skip188
+
+! LaTeX Error: Command \hsize already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 \newlength\Zhsize
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+sZhsize=skip189
+flrow@rowbox=box31
+FR@Zunitlength=dimen157
+
+! LaTeX Error: Command \flrow@setlist already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.963   \@flrow@setlist}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c@FBcnt=count142
+FPOScnt=count143
+LTleft=skip190
+LTright=skip191
+LTleft=skip192
+LTright=skip193
+flrow@types=toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1979 ...p:w \cs_set_nopar:cpn  \cs_set_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_nopar:cpn 
+                            
+l.1979 ...p:w \cs_set_nopar:cpn  \cs_set_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1979 ...p:w \cs_set_nopar:cpn  \cs_set_nopar:Npn
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1979 ...p:w \cs_set_nopar:cpn  \cs_set_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1980 ...p:w \cs_set_nopar:cpx  \cs_set_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_nopar:cpx 
+                            
+l.1980 ...p:w \cs_set_nopar:cpx  \cs_set_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1980 ...p:w \cs_set_nopar:cpx  \cs_set_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1980 ...p:w \cs_set_nopar:cpx  \cs_set_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1981 ...:w \cs_gset_nopar:cpn \cs_gset_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_nopar:cpn 
+                             
+l.1981 ...:w \cs_gset_nopar:cpn \cs_gset_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1981 ...:w \cs_gset_nopar:cpn \cs_gset_nopar:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1981 ...:w \cs_gset_nopar:cpn \cs_gset_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1982 ...:w \cs_gset_nopar:cpx \cs_gset_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_nopar:cpx 
+                             
+l.1982 ...:w \cs_gset_nopar:cpx \cs_gset_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1982 ...:w \cs_gset_nopar:cpx \cs_gset_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1982 ...:w \cs_gset_nopar:cpx \cs_gset_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1983 ...p:w \cs_new_nopar:cpn  \cs_new_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_nopar:cpn 
+                            
+l.1983 ...p:w \cs_new_nopar:cpn  \cs_new_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1983 ...p:w \cs_new_nopar:cpn  \cs_new_nopar:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1983 ...p:w \cs_new_nopar:cpn  \cs_new_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1984 ...p:w \cs_new_nopar:cpx  \cs_new_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_nopar:cpx 
+                            
+l.1984 ...p:w \cs_new_nopar:cpx  \cs_new_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1984 ...p:w \cs_new_nopar:cpx  \cs_new_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1984 ...p:w \cs_new_nopar:cpx  \cs_new_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1985 \__cs_tmp:w \cs_set:cpn  \cs_set:Npn
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set:cpn 
+                      
+l.1985 \__cs_tmp:w \cs_set:cpn  \cs_set:Npn
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1985 \__cs_tmp:w \cs_set:cpn  \cs_set:Npn
+                                           
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1985 \__cs_tmp:w \cs_set:cpn  \cs_set:Npn
+                                           
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1986 \__cs_tmp:w \cs_set:cpx  \cs_set:Npx
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set:cpx 
+                      
+l.1986 \__cs_tmp:w \cs_set:cpx  \cs_set:Npx
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1986 \__cs_tmp:w \cs_set:cpx  \cs_set:Npx
+                                           
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1986 \__cs_tmp:w \cs_set:cpx  \cs_set:Npx
+                                           
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1987 \__cs_tmp:w \cs_gset:cpn \cs_gset:Npn
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset:cpn 
+                       
+l.1987 \__cs_tmp:w \cs_gset:cpn \cs_gset:Npn
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1987 \__cs_tmp:w \cs_gset:cpn \cs_gset:Npn
+                                            
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1987 \__cs_tmp:w \cs_gset:cpn \cs_gset:Npn
+                                            
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1988 \__cs_tmp:w \cs_gset:cpx \cs_gset:Npx
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset:cpx 
+                       
+l.1988 \__cs_tmp:w \cs_gset:cpx \cs_gset:Npx
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1988 \__cs_tmp:w \cs_gset:cpx \cs_gset:Npx
+                                            
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1988 \__cs_tmp:w \cs_gset:cpx \cs_gset:Npx
+                                            
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1989 \__cs_tmp:w \cs_new:cpn  \cs_new:Npn
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new:cpn 
+                      
+l.1989 \__cs_tmp:w \cs_new:cpn  \cs_new:Npn
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1989 \__cs_tmp:w \cs_new:cpn  \cs_new:Npn
+                                           
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1989 \__cs_tmp:w \cs_new:cpn  \cs_new:Npn
+                                           
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1990 \__cs_tmp:w \cs_new:cpx  \cs_new:Npx
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new:cpx 
+                      
+l.1990 \__cs_tmp:w \cs_new:cpx  \cs_new:Npx
+                                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1990 \__cs_tmp:w \cs_new:cpx  \cs_new:Npx
+                                           
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1990 \__cs_tmp:w \cs_new:cpx  \cs_new:Npx
+                                           
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1991 ...d_nopar:cpn  \cs_set_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_protected_nopar:cpn 
+                                      
+l.1991 ...d_nopar:cpn  \cs_set_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_protected_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1991 ...d_nopar:cpn  \cs_set_protected_nopar:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1991 ...d_nopar:cpn  \cs_set_protected_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1992 ...d_nopar:cpx  \cs_set_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_protected_nopar:cpx 
+                                      
+l.1992 ...d_nopar:cpx  \cs_set_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_protected_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1992 ...d_nopar:cpx  \cs_set_protected_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1992 ...d_nopar:cpx  \cs_set_protected_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1993 ...d_nopar:cpn \cs_gset_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_protected_nopar:cpn 
+                                       
+l.1993 ...d_nopar:cpn \cs_gset_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_protected_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1993 ...d_nopar:cpn \cs_gset_protected_nopar:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1993 ...d_nopar:cpn \cs_gset_protected_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1994 ...d_nopar:cpx \cs_gset_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_protected_nopar:cpx 
+                                       
+l.1994 ...d_nopar:cpx \cs_gset_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_protected_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1994 ...d_nopar:cpx \cs_gset_protected_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1994 ...d_nopar:cpx \cs_gset_protected_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1995 ...d_nopar:cpn  \cs_new_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_protected_nopar:cpn 
+                                      
+l.1995 ...d_nopar:cpn  \cs_new_protected_nopar:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_protected_nopar:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1995 ...d_nopar:cpn  \cs_new_protected_nopar:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1995 ...d_nopar:cpn  \cs_new_protected_nopar:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1996 ...d_nopar:cpx  \cs_new_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_protected_nopar:cpx 
+                                      
+l.1996 ...d_nopar:cpx  \cs_new_protected_nopar:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_protected_nopar:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1996 ...d_nopar:cpx  \cs_new_protected_nopar:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1996 ...d_nopar:cpx  \cs_new_protected_nopar:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1997 ...set_protected:cpn  \cs_set_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_protected:cpn 
+                                
+l.1997 ...set_protected:cpn  \cs_set_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_protected:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1997 ...set_protected:cpn  \cs_set_protected:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1997 ...set_protected:cpn  \cs_set_protected:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1998 ...set_protected:cpx  \cs_set_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_protected:cpx 
+                                
+l.1998 ...set_protected:cpx  \cs_set_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_protected:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1998 ...set_protected:cpx  \cs_set_protected:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1998 ...set_protected:cpx  \cs_set_protected:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.1999 ...set_protected:cpn \cs_gset_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_protected:cpn 
+                                 
+l.1999 ...set_protected:cpn \cs_gset_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_protected:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.1999 ...set_protected:cpn \cs_gset_protected:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.1999 ...set_protected:cpn \cs_gset_protected:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.2000 ...set_protected:cpx \cs_gset_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_gset_protected:cpx 
+                                 
+l.2000 ...set_protected:cpx \cs_gset_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_gset_protected:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.2000 ...set_protected:cpx \cs_gset_protected:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.2000 ...set_protected:cpx \cs_gset_protected:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.2001 ...new_protected:cpn  \cs_new_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_protected:cpn 
+                                
+l.2001 ...new_protected:cpn  \cs_new_protected:Npn
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_protected:cpn' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.2001 ...new_protected:cpn  \cs_new_protected:Npn
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.2001 ...new_protected:cpn  \cs_new_protected:Npn
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.2002 ...new_protected:cpx  \cs_new_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_new_protected:cpx 
+                                
+l.2002 ...new_protected:cpx  \cs_new_protected:Npx
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_new_protected:cpx' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.2002 ...new_protected:cpx  \cs_new_protected:Npx
+                                                  
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.2002 ...new_protected:cpx  \cs_new_protected:Npx
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+__chk_if_free_cs:N #1->cs_if_free:NF 
+                                     #1{__msg_kernel_error:nnxx {kernel}{com...
+l.2003 \cs_new_protected:Npn \cs_set_eq:NN
+                                           #1 { \tex_let:D #1 =~ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> cs_set_eq:NN 
+                        
+l.2003 \cs_new_protected:Npn \cs_set_eq:NN
+                                           #1 { \tex_let:D #1 =~ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !
+Argh, internal LaTeX3 error!
+
+Module kernel, message name "command-already-defined":
+Arguments 'cs_set_eq:NN' and 'undefined'
+
+This is one for The LaTeX3 Project: bailing out.
+__msg_kernel_error:nnxx ...3 Project: bailing out}
+                                                  tex_end:D 
+l.2003 \cs_new_protected:Npn \cs_set_eq:NN
+                                           #1 { \tex_let:D #1 =~ }
+(That was another \errmessage.)
+
+! You can't use `end' in internal vertical mode.
+__msg_kernel_error:nnxx ... bailing out}tex_end:D 
+                                                  
+l.2003 \cs_new_protected:Npn \cs_set_eq:NN
+                                           #1 { \tex_let:D #1 =~ }
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 7854 strings out of 495561
+ 111965 string characters out of 6186972
+ 143742 words of memory out of 5000000
+ 11180 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 26i,3n,22p,202b,5745s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
