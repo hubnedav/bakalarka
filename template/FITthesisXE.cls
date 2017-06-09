@@ -13,11 +13,12 @@
 %   * DejaVu Fonts (http://dejavu-fonts.org/)
 % Or choose another fonts you like and change \setmainfont and \setmonofont.
 % 
-% @author:  Ondrej Guth <ondrej.guth@fit.cvut.cz>, 
-%           Jakub Jirutka <jakub.jirutka@fit.cvut.cz>,
-%           Miroslav Hrončok <miroslav.hroncok@fit.cvut.cz>
-% @version: 2017-05-14
 % 
+% @author:  Ondrej Guth <ondrej.guth@fit.cvut.cz>,
+%           Jakub Jirutka <jakub.jirutka@fit.cvut.cz>,
+%           Miroslav Hrončok <miroslav.hroncok@fit.cvut.cz>,
+%           Mikulas Dite <ditemiku@fit.cvut.cz>
+% @version: 2016-12-29
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{template/FITthesisXE}[2013/04/26 CTU FIT customized class for theses]
 
@@ -63,13 +64,20 @@
 \RequirePackage {floatrow}		% ...so we can force caption position
 
 \RequirePackage {fontspec}		% font selection for XeLaTeX
-\RequirePackage {xltxtra}		% extras for XeTeX
+% extras for XeTeX, without superscript redefinition that breaks footnote symbols
+\RequirePackage [no-sscript] {xltxtra}
 \RequirePackage {polyglossia}	% replacement for babel
 \RequirePackage [pdfusetitle] {hyperref}		% hyperlinks support
-% \RequirePackage {minted}		% source code highlighting via Pygments
+\RequirePackage {minted}		% source code highlighting via Pygments
 \RequirePackage {etoolbox}
 \RequirePackage {nameref}
-\RequirePackage {pdfpages}		% \includepdf 
+\RequirePackage {amssymb}		% \nexist
+\RequirePackage {pdfpages}		% \includepdf
+
+% symbol footnotes to prevent collision with citations
+\RequirePackage [symbol] {footmisc}
+\@addtoreset{footnote}{page}
+\renewcommand{\thefootnote}{\ifcase\value{footnote}\or$\dagger$\or$\ddagger$\or$\dagger\dagger$\or$\ddagger\ddagger$\or$\infty$\fi}
 
 % microtype currently supports only protrusion with XeLaTeX :(
 \RequirePackage [protrusion=true] {microtype}
@@ -79,7 +87,7 @@
 
 % define new glossary style for list of acronyms
 \newglossarystyle {acronyms} {%
-	\setglossarystyle {long}  % style that uses longtable
+	\glossarystyle {long}  % style that uses longtable
 	\renewcommand {\glossarysection}[2][] {}  % disable header
 	\renewcommand {\glsgroupskip} {}  % disable grouping
 
@@ -236,7 +244,7 @@
 
 % adjust settings for minted if used
 \AtBeginDocument {%
-% 	\renewcommand*{\today}{10. května 2016} % FIXME
+	\renewcommand*{\today}{16th of May, 2017} % FIXME
 	\@ifpackageloaded {minted} {%
 		% use smaller font in code listings
 		\AtBeginEnvironment {minted} { \singlespacing \fontsize{11}{11} \selectfont }
@@ -278,6 +286,8 @@
 }{
 	\setsecnumdepth {subsubsection}
 }
+
+\def\code#1{\texttt{#1}}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % Template
@@ -430,7 +440,7 @@ of works or by adapting the Work (including translation), and at the same time m
 		Prohlašuji, že jsem předloženou práci vypracoval samostatně a že jsem uvedl veškeré použité informační zdroje v~souladu s~Metodickým pokynem o~etické přípravě vysokoškolských závěrečných prací.
 
 		Beru na vědomí, že se na moji práci vztahují práva a povinnosti vyplývající ze zákona č.~121/2000~Sb., autorského zákona, ve znění pozdějších předpisů. V~souladu s~ust. §~46 odst.~6 tohoto zákona tímto uděluji nevýhradní oprávnění (licenci) k~užití této mojí práce, a to včetně všech počítačových programů, jež jsou její součástí či přílohou a veškeré jejich dokumentace (dále souhrnně jen „Dílo“), a to všem osobám, které si přejí Dílo užít. Tyto osoby jsou oprávněny Dílo užít jakýmkoli způsobem, který nesnižuje hodnotu Díla a za jakýmkoli účelem (včetně užití k~výdělečným účelům). Toto oprávnění je časově, teritoriálně i množstevně neomezené.
-		}\else{
+		}\else{%
 		I hereby declare that the presented thesis is my own work and that I have cited all sources of information in accordance with the Guideline for adhering to ethical principles when elaborating an academic final thesis.
 		
 		I acknowledge that my thesis is subject to the rights and obligations stipulated by the Act No.~121/2000 Coll., the Copyright Act, as amended. In accordance with Article~46(6) of the Act, I hereby grant a nonexclusive authorization (license) to utilize this thesis, including any and all computer programs incorporated therein or attached thereto and all corresponding documentation (hereinafter collectively referred to as the ``Work''), to any and all persons that wish to utilize the Work. Such persons are entitled to use the Work in any way (including for-profit purposes) that does not detract from its value. This authorization is not limited in terms of time, location and quantity.
@@ -440,7 +450,7 @@ of works or by adapting the Work (including translation), and at the same time m
 		Prohlašuji, že jsem předloženou práci vypracoval samostatně a že jsem uvedl veškeré použité informační zdroje v~souladu s~Metodickým pokynem o~etické přípravě vysokoškolských závěrečných prací.
 
 		Beru na vědomí, že se na moji práci vztahují práva a povinnosti vyplývající ze zákona č.~121/2000~Sb., autorského zákona, ve znění pozdějších předpisů. Dále prohlašuji, že jsem s~Českým vysokým učením technickým v~Praze uzavřel dohodu, na základě níž se ČVUT vzdalo práva na uzavření licenční smlouvy o~užití této práce jako školního díla podle §~60 odst.~1 autorského zákona. Tato skutečnost nemá vliv na ust. §~47b zákona č.~111/1998~Sb., o~vysokých školách, ve znění pozdějších předpisů.
-		}\else{
+		}\else{%
 		I hereby declare that the presented thesis is my own work and that I have cited all sources of information in accordance with the Guideline for adhering to ethical principles when elaborating an academic final thesis.
 		
 		I acknowledge that my thesis is subject to the rights and obligations stipulated by the Act No.~121/2000 Coll., the Copyright Act, as amended. I further declare that I have concluded an agreement with the Czech Technical University in Prague, on the basis of which the Czech Technical University in Prague has waived its right to conclude a license agreement on the utilization of this thesis as a school work under the provisions of Article~60(1) of the Act. This fact shall not affect the provisions of Article~47b of the Act No.~111/1998 Coll., the Higher Education Act, as amended. 
@@ -615,7 +625,7 @@ of works or by adapting the Work (including translation), and at the same time m
 }
 
 
-% \renewcommand*{\l@listing}{\@dottedtocline{1}{0em}{2.3em}}
+\renewcommand*{\l@listing}{\@dottedtocline{1}{0em}{2.3em}}
 
 \AtBeginDocument{
 	\if@assignmentdefined{\includepdf[pages={1}]{\theassignment}}

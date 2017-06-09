@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.14)  14 MAY 2017 23:05
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.5.15)  28 MAY 2017 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **FITthesisXE.cls
 (./FITthesisXE.cls
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 4 language(s) loaded.
 
 LaTeX Warning: You have requested package `',
                but the package provides `template/FITthesisXE'.
@@ -18,7 +18,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \newif \if@
+l.29 \newif \if@
                 thesistypedefined
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -42,7 +42,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 28--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--32
 []
  []
 
@@ -53,7 +53,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \newif \if@
+l.33 \newif \if@
                 langdefined
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -81,7 +81,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 32--45
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--46
 []
  []
 
@@ -92,7 +92,7 @@ See the FITthesis class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...e or option english for English language.}
+l.51 ...e or option english for English language.}
                                                   
 Add option czech for Czech language or option english for English language.
 
@@ -3243,12 +3243,12 @@ l.2003 \cs_new_protected:Npn \cs_set_eq:NN
                                            #1 { \tex_let:D #1 =~ }
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 7854 strings out of 495561
- 111965 string characters out of 6186972
- 143742 words of memory out of 5000000
- 11180 multiletter control sequences out of 15000+600000
+ 7854 strings out of 495545
+ 111965 string characters out of 6186443
+ 143785 words of memory out of 5000000
+ 11183 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 26i,3n,22p,202b,5745s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19 hyphenation exceptions out of 8191
+ 26i,3n,22p,195b,5745s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.

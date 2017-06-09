@@ -12,40 +12,44 @@
 % arara: xelatex: { shell: yes }
 \documentclass[thesis=B,czech,hidelinks]{template/FITthesisXE}
 
+\bibliography{reference.bib}
+
 \usepackage{ graphicx }		% graphics files inclusion
 \usepackage{ dirtree } 		% directory tree visualisation
 \usepackage{ longtable } 	% tables which Pandoc use
 \usepackage{ lscape }		% to be able to rotate stuff
 \usepackage{ metalogo }		% for \XeLaTeX
-
-\bibliography{ref.bib}
+\usepackage{ textcomp }
 
 % make list of acronyms
 \makeglossaries
-\input{sections/zkratky.tex}
+\input{glossary.tex}
 \glsaddall	% add even unused acronyms
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
-\input{sections/meta.tex}
+\acknowledgements{\input{podekovani.tex}}
+\abstractCS{\input{abstrakt_cs.tex}}
+\abstractEN{\input{abstrakt_en.tex}}
 
-\assignment{zadani.pdf}
-
-\acknowledgements{\input{sections/podekovani.tex}}
-\abstractCS{\input{sections/abstrakt_cs.tex}}
-\keywordsCS{\input{sections/keywords_cs.tex}}
-\abstractEN{\input{sections/abstrakt_en.tex}}
-\keywordsEN{\input{sections/keywords_en.tex}}
-
+\input{meta.tex}
 \begin{document}
 
-
 \begin{introduction}
-\label{introduction}
+  \input{sections/0_uvod.tex}
 \end{introduction}
 
 
+\input{sections/1_cil.tex}
+\input{sections/2_reserse.tex}
+
+\input{sections/5_navrh.tex}
+
+\input{sections/7_implementace.tex}
+\input{sections/8_pravo.tex}
+\input{sections/9_testovani.tex}
 \begin{conclusion}
+  \input{sections/10_zaver.tex}
 \label{conclusion}
 
 \end{conclusion}
@@ -56,7 +60,6 @@
 
 \chapter{Seznam použitých zkratek}
 \printglossary[type=\acronymtype,style=acronyms]
-
 
 
 \end{document}
