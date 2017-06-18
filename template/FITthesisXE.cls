@@ -74,10 +74,10 @@
 \RequirePackage {amssymb}		% \nexist
 \RequirePackage {pdfpages}		% \includepdf
 
-% symbol footnotes to prevent collision with citations
-\RequirePackage [symbol] {footmisc}
-\@addtoreset{footnote}{page}
-\renewcommand{\thefootnote}{\ifcase\value{footnote}\or$\dagger$\or$\ddagger$\or$\dagger\dagger$\or$\ddagger\ddagger$\or$\infty$\fi}
+% % symbol footnotes to prevent collision with citations
+% \RequirePackage [symbol] {footmisc}
+% \@addtoreset{footnote}{page}
+% \renewcommand{\thefootnote}{\ifcase\value{footnote}\or$\dagger$\or$\ddagger$\or$\dagger\dagger$\or$\ddagger\ddagger$\or$\infty$\fi}
 
 % microtype currently supports only protrusion with XeLaTeX :(
 \RequirePackage [protrusion=true] {microtype}
@@ -87,7 +87,7 @@
 
 % define new glossary style for list of acronyms
 \newglossarystyle {acronyms} {%
-	\glossarystyle {long}  % style that uses longtable
+	\setglossarystyle {long}  % style that uses longtable
 	\renewcommand {\glossarysection}[2][] {}  % disable header
 	\renewcommand {\glsgroupskip} {}  % disable grouping
 
@@ -648,8 +648,8 @@ of works or by adapting the Work (including translation), and at the same time m
 	\cleardoublepage
 	\listoflistingscond
 
-	%\cleardoublepage
-	%\listofdirfigurescond
+	% \cleardoublepage
+	% \listofdirfigurescond
 
 	\cleardoublepage
 	\listoftablescond

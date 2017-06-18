@@ -1,0 +1,13 @@
+\subsection{Brickset}
+  Brickset je populární webová aplikace poskytující detailní informace a novinky o~stavebnicích LEGO. Má rozsáhlou základnu aktivních uživatelů\footnote{Brickset má více než 150 000 registrovaných uživateů a v~průměru 20 000 aktivních uživatelů každý měsíc. \autocite{brickset:infographic}} a sama o~sobě prohlašuje, že je primárním zdrojem informací o~LEGO stavebnicích na internetu \autocite{brickset:about}.
+
+  \subsubsection{Poskytovaná data}
+  Data z~databáze Brickset jsou dostupná přes veřejné \gls{API}. Přes \gls{API} je možné obdržet informace týkající se stavebnic, instrukce k~jejich postavení, recenze a obrázky stavebnic. Dále je přes Brickset \gls{API} možné spravovat uživatelské sbírky stavebnic. 
+
+  Přestože webové stánky Brickset umožňují i prohlížení inventářů jednotlivých stavebnic, Brickset nemá oprávnění k~jejich sdílení přes své   \gls{API} a ve své dokumentaci \autocite{brickset:api} odkazuje k~využítí \gls{API} webové stránky Rebrickable.com. 
+
+  \subsubsection{API}
+  Podrobná specifikace \gls{API} s~výčtem dostupných metod je na \autocite{brickset:api}. Brickset \gls{API} je implementováno jako služba postavená nad protokolem \gls{SOAP}. 
+
+  \subsubsection{Závěr}
+  Pro účely vytvářené aplikace není využití samotných dat poskytovaných přes \gls{API} Brickset dostačující. Bude tedy nutné využít další zdroje poskytující informace o~inventářích stavebnic. \gls{API} služby Brickset bude využito pouze k~obdržení popisu stavebnic, obrázků, instrukcí a recenzí.
