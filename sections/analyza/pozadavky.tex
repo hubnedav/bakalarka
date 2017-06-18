@@ -1,0 +1,31 @@
+\section{Požadavky}
+V této sekci jsou shrnuty požadavky kladené na vytvářenou aplikaci specifikovanou v zadání této práce.
+
+\subsection{Funkční požadavky}
+
+\begin{enumerate}[label=FP-\arabic*:]
+    \item \label{fp:model:search} \textbf{Procházení, vyhledávání a prohlížení součástek a stavebnic}
+
+    Aplikace musí umožňovat procházení, vyhledávání a prohlížení součástek z knihovny LDraw a stavebnic z databáze Brickset. 
+
+    \item \label{fp:model:download} \textbf{Stažení 3D modelů}
+
+    3D modely součástek musí být možno stáhnout samostatně i v sadách modelů obsažených v jednotlivých stavebnicích. Stavebnice navíc musí být možno stáhnout i ve verzi roztříděné podle barev součástek.
+
+    \item \label{fp:model:prevod} \textbf{Zajistění převodu formátu LDraw na formát vhodný pro 3D tisk}
+
+    Převod formátu bude zajištěn využitím vhodné existující implementace konverze. 
+
+    \item \label{fp:model:3Dview} \textbf{Interaktivní prohlížení součástek ve 3D náhledu}
+    \item \label{fp:model:update} \textbf{Automatická aktualizace databáze LDraw}
+
+\end{enumerate}
+
+\subsection{Nefunkční požadavky}
+
+\begin{enumerate}[label=NP-\arabic*:,resume]
+    \item \label{np:opensource} \textbf{Open-source kód}
+    \item \label{np:webgl} \textbf{Využití WebGL pro 3D náhled součástek}
+    \item \label{np:structure} \textbf{Dobře strukturovaný, řádně otestovaný, vhodně okomentovaný a dokumentovaný zdrojový kód}
+    \item \label{np:english} \textbf{Komentáře i dokumentace v anglickém jazyce}
+\end{enumerate}
