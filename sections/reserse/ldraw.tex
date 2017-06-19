@@ -25,17 +25,27 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
         Typ příkazu na řádce je určen prvním znakem, který se na ní vyskytuje (s~výjimkou bílých znaků\footnote{Bílý znak je dle specifikace \autocite{ldraw:file:specification} definován jako jedna nebo více mezer, znaků tabuláru nebo jejich kombinace.}). Možné typy řádků jsou následující: 
         
         \begin{enumerate}
-            \item[0:] komentář nebo META příkaz,
-            \item[1:] reference na jiný soubor,
-            \item[2:] úsečka,
-            \item[3:] trojúhelník,
-            \item[4:] čtyřúhelník,
-            \item[5:] volitelná úsečka.
+            \item[0:] \textbf{komentář nebo META příkaz}
+
+            \item[1:] \textbf{reference na jiný soubor}
+
+                Formát příkazu: \mintinline{text}{1 <colour> x y z a b c d e f g h i <file>}, kde: 
+                \begin{itemize}
+                    \item \textit{<color>} je id barvy specifikované v \autocite{ldraw:colors},
+                    \item \textit{x y z} jsou souřadnice pro umístení součástky,
+                    \item \textit{a b c d e f g h i} je levá horní 3x3 matice standardní 4x4 homogenní transformační matice,
+                    \item \textit{<file>} je jméno vkládaného souboru.
+                \end{itemize}
+                
+
+            \item[2:] \textbf{úsečka}
+            \item[3:] \textbf{trojúhelník}
+            \item[4:] \textbf{čtyřúhelník}
+            \item[5:] \textbf{volitelná úsečka}
         \end{enumerate}
 
         V~ukázce kódu \ref{ukazka-soucastky-ldraw} můžeme vidět příklad jednoduché součástky ve formátu \textit{LDraw}. Tuto vyrenderovanou součástku je možné vidět na obrázku~\ref{obrazek-ldraw-soucastka}.
             
-
        \begin{listing}[htbp]
             \begin{minted}[bgcolor=codebg]{text}
 0 Brick  2 x  2
@@ -82,7 +92,7 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
     \subsubsection{Knihovna LDraw}\label{ldraw-knihovna}
     Knihovna \textbf{LDraw} poskytuje velké množství\footnote{V době psaní práce obsahuje knihovna 9 781 součástek} 3D modelů LEGO součástek ve formátu \textit{LDraw}.
 
-    Součástky z~knihovny je možné obdržet jednotlivě z~adresy \\ \textit{http://www.ldraw.org/library/official/<filepath>} kde \textit{<filepath>} je cesta k~souboru v knihovně \textbf{LDraw}  \autocite{ldraw:download}. Další možností je obdržení kompletní knihovny v~podobě ZIP archivu. Struktura obsahu tohoto archivu je zobrazena na diagramu adresářové struktury \ref{ldraw-archiv}.
+    Součástky z~knihovny je možné obdržet jednotlivě z~adresy \\ \textit{http://www.ldraw.org/library/official/<filepath>}, kde \textit{<filepath>} je cesta k~souboru v knihovně \textbf{LDraw} \autocite{ldraw:download}. Další možností je obdržení kompletní knihovny v~podobě ZIP archivu. Struktura obsahu tohoto archivu je zobrazena na diagramu adresářové struktury \ref{ldraw-archiv}.
 
     \begin{dirfigure}%
         \dirtree{%
@@ -145,15 +155,17 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
 
         \item \textbf{Physical\_Colour:} Soubor odkazující na jiné místo v~knihovně a navíc určující barvu.
         \item \textbf{Sticker:} Potisk.
-        \item \textbf{Patterned:} Součáska s~potiskem (viz. obrázek \ref{obrazek-ldraw-patterned}).
+        \item \textbf{Patterned:} Součáska s~potiskem.
+        
+        Porovnání součástky typu \textit{Part} a odpovídající součásky typu \textit{Patterned} je vidět na obrázku \ref{obrazek-ldraw-patterned}.
+        
     \end{itemize}
    
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.3\textwidth,height=\textheight,keepaspectratio]{images/3001.png}
         \includegraphics[width=0.3\textwidth,height=\textheight,keepaspectratio]{images/3001p0b.png}
-        \caption{Ukázka dílu typu \textit{Patterned} \autocite{rebrickable:part:image:3001}\autocite{rebrickable:part:image:3001p0b}\label{obrazek-ldraw-patterned}}
-        %TODO - reference
+        \caption{Ukázka součástky typu \textit{Part} a \textit{Patterned} \autocite{rebrickable:part:image:3001}\autocite{rebrickable:part:image:3001p0b}\label{obrazek-ldraw-patterned}}
     \end{figure}
 
       \begin{listing}[htbp]
