@@ -1,5 +1,5 @@
 \subsection{ADMesh}
-ADMesh \autocite{ADMesh} je open-source program umožňující provádět operace nad soubory ve formátu \textit{\gls{STL}}. Jedná se o program bez grafického rozhraní spouštěný z příkazové řádky. 
+ADMesh \autocite{ADMesh} je open-source program umožňující provádět operace nad soubory ve formátu \textit{\gls{STL}}. Jedná se o program bez grafického rozhraní spouštěný z příkazové řádky. V~ukázce \ref{priklad-admesh} je příklad použití programu ADMesh pro zvětšení měřítka, rotaci kolem osy x a následného uložení v podobě binárního \textit{\gls{STL}} souboru.
 
 Funkce:
 \begin{itemize}
@@ -9,3 +9,11 @@ Funkce:
     \item změna velikosti,
     \item čtení a zápis binárních i textových \textit{\gls{STL}} souborů.
 \end{itemize}
+
+\begin{listing}[htbp]
+        \begin{minted}[bgcolor=codebg]{bash}
+$ admesh 3003.stl --x-rotate=-90 --scale=10 --no-check
+--write-binary-stl=3003.stl
+        \end{minted}
+    \caption{Příklad použití programu ADMesh \label{priklad-admesh}}
+\end{listing}

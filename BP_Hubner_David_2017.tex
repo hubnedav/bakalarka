@@ -10,6 +10,7 @@
 % arara: biber
 % arara: xelatex: { shell: yes }
 % arara: xelatex: { shell: yes }
+% arara: xelatex: { shell: yes }
 \documentclass[thesis=B,czech,hidelinks]{template/FITthesisXE}
 
 \bibliography{reference.bib}
@@ -21,6 +22,10 @@
 \usepackage{ metalogo }		% for \XeLaTeX
 \usepackage{ textcomp }
 \usepackage{ enumitem }	
+
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
 
 % make list of acronyms
 \makeglossaries
