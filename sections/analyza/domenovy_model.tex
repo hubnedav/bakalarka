@@ -46,7 +46,7 @@ První balíček obsauje entity týkající se součástek z knihovny LDraw.
   \end{table}
 
 \subsubsection*{Author}
-Entita \textit{Author} reprezentuje autora jednotlivých modelů, kteří přispívají do knihovny LDraw svými 3D modely. 
+Entita \textit{Author} reprezentuje autora jednotlivých modelů, který přispívá do knihovny LDraw svými 3D modely. 
   
 \subsubsection*{Alias}
 Entita \textit{Alias} reprezentuje alternativní identifikátor modelu na který má vazbu. 
@@ -54,18 +54,18 @@ Entita \textit{Alias} reprezentuje alternativní identifikátor modelu na který
 Uchování alternativních identifikátorů modelů slouží ke sjednocení tvarově identických součástek. Uchovávání každé součástky by z hlediska 3D tisku nemělo žádný význam, protože jejich rozdíly (například potisk) zaniknou okamžikem převodu do formátu \textit{STL}.
 
 \subsubsection*{Subpart}
-Protože formát LDraw umožňuje i vytváření součástek typu \textit{Shortcut} definované v podsekci \nameref{ldraw-typy-soucastek} sekce \ref{reserse-ldraw}, je nutné mít možnost uchovat informaci o vztahu mezi jednotlivými modely. Toto je umožněno entitou \textit{Subpart} . 
+Protože formát LDraw umožňuje i vytváření součástek typu \textit{Shortcut}, které jsou definovány v podsekci \nameref{ldraw-typy-soucastek} sekce \ref{reserse-ldraw}, je nutné mít možnost uchovat informaci o vztahu mezi jednotlivými modely. Toto je umožněno entitou \textit{Subpart} . 
 
-Entita \textit{Subpart} kromě vazeb na \textit{Model} obsahuje atribut specifikující množství výskytu podsoučástky a vazbu na entitu \textit{Color}, specifikující barvu. 
+Entita \textit{Subpart} kromě vazeb na \textit{Model} obsahuje atribut specifikující četnost výskytu podsoučástky a vazbu na entitu \textit{Color}, která specifikuje barvu. 
 
 \subsubsection*{Category}
-Každý model je zařazen do kategorie, která je určená v hlavičce souboru, nebo prvním slovem na první řádce souboru. 
+Každý model je zařazen do kategorie, která je určená v hlavičce souboru.
 
 \subsubsection*{Keyword}
 K možnosti vyhledávání v knihovně LDraw mohou součástky a podsoučástky definovat klíčová slova.
 
 \subsection{Rebrickable}
-Druhý balíček sdružuje entity ze služby Rebrickable, která poskytuje invenáře součástek a stavebnic.
+Druhý balíček sdružuje entity ze služby Rebrickable, která poskytuje inventáře součástek a stavebnic.
 
 \subsubsection*{Set}
 Entita \textit{Set} reprezentuje jednu stavebnici LEGO. Každá stavebnice má své unikátní id určené přímo společností LEGO. 
@@ -77,13 +77,13 @@ Entita \textit{Part} reprezentuje jednu unikátní součásku LEGO z databáze R
 Stavebnice může být během času vydána v novější verzi, ve které je například vyměněna pouze jedna součástka. To vede k potřebě zvláštní entity \textit{Inventory}, která reprezentuje tyto verze inventářů. 
 
 \subsubsection*{Inventory\_Part} 
-Součástky se ve stevebnicích mohou vyskytovat v různých barevných provedeních. Dále je běžné, že stevebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k jejich sestavení.
+Součástky se ve stavebnicích mohou vyskytovat v různých barevných provedeních. Dále je běžné, že stevebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k jejich sestavení.
 
 \subsubsection*{Inventory\_Set}
-Stavebnice se nemusejí skládat pouze ze součástek, ale mohou sdružovat i větší množství jiných stavebnic. Proto je potřeba entity \textit{Inventory\_Set}, která reprezentuje tento vzah mezi stavebnicí a invenářem.
+Stavebnice se nemusejí skládat pouze ze součástek, ale mohou sdružovat i větší množství jiných stavebnic. Proto je nutná entita \textit{Inventory\_Set}, která reprezentuje tento vzah mezi stavebnicí a inventářem.
 
 \subsubsection*{Theme}
-Každá stavebnice náleží do kategorie. Kategorie je reprezentováná entitou \textit{Theme}. Kategorie může být zároveň podkategorií jiné kategorie. Zpravidla je zanoření kategorií maximálně tři úrovně hluboké.
+Každá stavebnice náleží do série. Série je reprezentována entitou \textit{Theme}. Série může být zároveň podřazena jiné sérii. Zpravidla je zanoření maximálně tři úrovně hluboké.
 
 \subsubsection*{Color} 
 Entita \textit{Color} (tabulka \emph{\ref{table:entity:color}}) je společná pro oba balíčky. To je dáno faktem, že Rebrickable se svými daty vychází právě z knihovny LDraw, jak bylo zmíněno v sekci \emph{\ref{reserse-rebrickable}}.
