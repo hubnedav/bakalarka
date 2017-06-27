@@ -1,20 +1,19 @@
-\section{Doménová analýza}
-Pro podrobnější pochopení problematiky je vhodné vytvořit doménový model (na obrázku \emph{\ref{diagram-domenovy}} a \emph{\ref{diagram-domenovy-brickset}}). Doménový model popisuje strukturu dat a vazby mezi jednotlivými entitami. 
+\section{Doménový model}
+Doménový model (na obrázku \emph{\ref{diagram-domenovy}} a \emph{\ref{diagram-domenovy-brickset}}) popisuje strukturu dat a vazby mezi jednotlivými entitami. Je důležitý pro učinění rozhodnutí jaké objekty a jejich vztahy bude nutné v aplikaci uchovávat. 
 
-Při vytváření doménového modelu jsem vycházel ze tří zdrojů dat, které jsem stanovil v reřeršní části práce. Z hlediska domény je tedy vhodné rozdělit entity do balíčků podle zdroje, ze kterého pochází. Využité zdroje dat jsou: 
+Při vytváření doménového modelu je vycházeno ze tří zdrojů dat, které jsou stanoveny v rešeršní části práce. Z hlediska domény je tedy vhodné rozdělit entity do balíčků podle zdroje, ze kterého pochází. Využité zdroje dat jsou: 
 \begin{itemize}
   \item knihovna LDraw,
   \item Rebrickable,
   \item Brickset.
 \end{itemize}
 
-Pro větší přehlednost jsem doménový model rozdělil na dva diagramy 
-
+Pro větší přehlednost jsem doménový model rozdělil na dva diagramy. Diagram na obrázku \ref{diagram-domenovy} popisuje lokálně ukládaná data knihovny LDraw a služy Rebrickable. Diagram na obrázku \ref{diagram-domenovy-brickset} data dostupná přes API Brickset. 
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{pdfs/diagram}
-    \caption{Doménový model: LDraw a Rebrickable\label{diagram-domenovy}}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{pdfs/domain_ldraw_rebrickable}
+    \caption{Doménový model: LDrawkey a Rebrickable\label{diagram-domenovy}}
   \end{figure}
 
 \subsection{LDraw}
@@ -32,7 +31,8 @@ První balíček obsauje entity týkající se součástek z knihovny LDraw.
   \begin{tabularx}{\textwidth}{@{}rX@{}}
   \toprule
   Atribut & Popis
-  \\ \midrule
+  \\ 
+  \midrule
   id: & Unikátní textový identifikátor modelu
   \\
   name: & Jméno modelu 
@@ -40,6 +40,8 @@ První balíček obsauje entity týkající se součástek z knihovny LDraw.
   modified: & Datum poslední úpravy modelu 
   \\
   partCount: & Počet součástek ve stavebnici
+  \\
+  path: & Cesta k souboru 3D modelu na serveru
   \\
   \bottomrule
   \end{tabularx}
@@ -113,6 +115,6 @@ Třetí balíček popisuje strukturu dat dostupných přes \gls{API} Brickset.
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{pdfs/brickset}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{pdfs/domain_brickset}
     \caption{Doménový model: Brickset \label{diagram-domenovy-brickset}}
 \end{figure}
