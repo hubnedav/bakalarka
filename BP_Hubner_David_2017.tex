@@ -27,10 +27,25 @@
 \floatstyle{plaintop}
 \restylefloat{table}
 
+\usemintedstyle{perldoc}
+\setminted{
+  startinline,
+  linenos,	
+  breaklines,		
+  autogobble,
+  fontsize=\small,
+  % bgcolor=codebg
+}
+
+% \setmintedinline{
+  % bgcolor=white,
+% }
+
 % make list of acronyms
 \makeglossaries
 \input{glossary.tex}
 \glsaddall	% add even unused acronyms
+
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
@@ -48,10 +63,10 @@
 \input{sections/reserse/main}
 \input{sections/analyza/main}
 \input{sections/navrh/main}
-\input{sections/testovani/main}
+\input{sections/implementace/main}
+\input{sections/testovani_nasazeni/main}
 \input{sections/pravo}
 
-\input{sections/7_implementace.tex}
 \begin{conclusion}
   \input{sections/zaver}
 \label{conclusion}

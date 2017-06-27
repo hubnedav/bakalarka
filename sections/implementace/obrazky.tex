@@ -1,0 +1,36 @@
+\section{Cachování obrázků}
+Pro urychlení načítaní webových stránek jsem implementoval mechanizmus cachování miniatur obrázků součástek a stavebnic. K práci s obrázky v Symfony slouží komponenta LiipImagineBundle. LiipImagineBundle umožňuje definování různých filtrů 
+
+\begin{listing}[htbp]
+  \begin{minted}{yaml}
+liip_imagine:
+    resolvers:
+        default:
+            web_path: ~
+    filter_sets:
+        set_min:
+            quality: 90
+            data_loader: set_image_loader
+            cache: ~
+            default_image: "/resources/images/noimage_min.png"
+            filters:
+                upscale: { min: [230, 230] }
+                thumbnail:
+                    size: [230, 230] 
+                    mode: inset
+                    allow_upscale: true 
+                background: 
+                    size: [250, 250]
+                    position: center
+                    color: '#FFFFFF'
+  \end{minted}
+  \caption{Ukázka konfigurace LiipImagineBundle\label{liip-imagine-config}}
+\end{listing}
+
+\begin{listing}[htbp]
+  \begin{minted}{html}
+<img src="{{ asset(number) | imagine_filter(set_min) }}" 
+     alt="{{ 'set.image.alt' | trans({'%number%':number}) }}">
+    \end{minted}
+  \caption{Ukázka použití filteru LiipImagineBundle\label{liip-imagine-usage}}
+\end{listing}   

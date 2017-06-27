@@ -1,0 +1,25 @@
+\section{Náhled pro sociální sítě}
+Významným zdrojem návštěvnosti stránek mohou v dnešní době být i sociální sítě. Aby byl sdílený odkaz na stránku dostatečně zajímavý je třeba stránky rozšířit o patřičné meta informace. Facebook a většina sociálních sítí ke specifikování náhledu využívá protokol Open Graph představený firmou Facebook v roce 2010 \autocite{opengraph}.
+
+\begin{listing}[htbp]
+  \begin{minted}{twig}
+{% macro meta(title,url,description,image,imageHeight,imageWidth) %}
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:image:width" content="{{ imageWidth }}">
+    <meta property="og:image:height" content="{{ imageHeight }}">
+    <meta property="og:site_name" content="{{ name }}">
+
+    <meta property="twitter:card" content="summary">
+{% endmacro %}
+  \end{minted}
+  \caption{\label{opengraph-meta}}
+\end{listing}
+
+\begin{figure}[htbp]
+        \centering
+        \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/fbshare.png}
+        \caption{\label{facebook-share}}
+\end{figure}

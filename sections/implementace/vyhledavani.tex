@@ -1,0 +1,151 @@
+\section{Vyhledávání}
+Podle funkčního požadavku \ref{fp:model:search} musí aplikace umožňovat vyhledávání a procházení součástek a stavebnic. Jak již bylo zmíněno v podkapitole \ref{implementace-technologie}, k realizaci tohoto požadavku jsem využil fulltextového vyhledávače Elasticsearch \autocite{elasticsearch}. Pro implemetaci konkrétně balíček FOSElasticaBundle \autocite{foselastica}, který integruje PHP knihovu pro komunikaci s Elasticsearch serverem přes \gls{REST} API do frameworku Symfony.
+
+% \subsection{Konfigurace}
+% \begin{listing}[htbp]
+%   \begin{minted}{yaml}
+% fos_elastica:
+%   clients:
+%     default: { host: '%elastica_host%', port: '%elastica_port%' }
+%   indexes:
+%     app:
+%       index_name: app_%kernel.environment%
+%       settings:
+%         index:
+%           analysis:
+%             analyzer:
+%               name_analyzer:
+%                 type:       custom
+%                 tokenizer:  nGram
+%                 filter:     [lowercase,stopwords]
+%               id_analyzer:
+%                 type:       custom
+%                 tokenizer:  edge_ngram
+%             tokenizer:
+%               nGram:
+%                 type:       nGram
+%                 min_gram:   3
+%                 max_gram:   20
+%               ...
+%             filter:
+%               ...
+%   \end{minted}
+%   \caption{Ukázka konfigurace Elasticsearch\label{elasticsearch-config}}
+% \end{listing}
+
+\subsection{Nastavení indexování}
+Vyhledávání a filtrování kolekce probíhá na základě nastavených pravidel indexování enitit. Ukázku nastavení indexování entity \textit{Set} je 
+možné vidět v ukázce kódu \ref{elasticsearch-set-index}. Nastavní probíhá pomocí konfiguračního souboru ve formátu \gls{YAML} a určuje atributy společně s metodou indexace.
+
+\begin{listing}[htbp]
+  \begin{minted}{yaml}
+fos_elastica:
+  indexes:
+    app:
+      types:
+        set:
+          mappings:
+            id:
+              type: "keyword"
+              fields:
+                ngrams: { type: 'text', analyzer: id_analyzer }
+            name: 
+              analyzer: name_analyzer 
+              search_analyzer: "standard"
+            year: { type: integer }
+            partCount: { type: integer }
+            theme:
+              type: "object"
+              properties: { id: ~ }
+          persistence:
+            driver: orm
+            model: AppBundle\Entity\Rebrickable\Set
+            ...
+            repository: AppBundle\Repository\Search\SetRepository
+            ...
+  \end{minted}
+  \caption{Ukázka nastavení mapování entity \label{elasticsearch-set-index}}
+\end{listing}
+
+\subsection{Vyhledávání}
+Vyhledávání je v aplikaci zajišťováno službou \textit{SearchService}. Služba na základě formuláře s využitím repozitářů připraví dotaz, který je následně odeslán na vyhledávací server Elasticsearch v podobě zobrazené v ukázce kódu \ref{elasticsearch-query}. Následně jsou získaná data z odpovědi automaticky namapována na entity s využitím Doctrine 2 a vrácen výsledek.
+
+\begin{listing}[htbp]
+  \begin{minted}{json}
+{
+  "query": {
+    "bool": { 
+      "must": [{
+        "multi_match": {
+          "fields": [ "name", "id", "id.ngrams" ],
+          "query": "falcon", 
+          "fuzziness": 0.7,
+          "minimum_should_match": "80%",
+          "operator": "and"
+        }
+      }],
+      "filter": [
+        { "match": { "theme.id" : 158 }},
+        { "range": { "partCount" : { "gte" : "0", "lte" : "5922" }}},
+        { "range": { "year" : { "gte" : "1950", "lte" : "2017" }}}
+      ]
+    }
+  },
+  "size": 500
+}
+        \end{minted}
+  \caption{Ukázka JSON dotazu Elasticsearch\label{elasticsearch-query}}
+\end{listing}
+
+% \begin{listing}[htbp]
+%   \begin{minted}{json}
+% {
+%     "took": 9, "timed_out": false, "_shards": { "total": 5, "successful": 5, "failed": 0 },
+%     "hits": {
+%         "total": 1, "max_score": 8.896875, 
+%         "hits": [
+%             {
+%                 "_index": "app_dev", 
+%                 "_type": "set",
+%                 "_id": "75105-1",
+%                 "_score": 8.896875,
+%                 "_source": {
+%                     "id": "75105-1",
+%                     "name": "Millennium Falcon™",
+%                     "year": 2015,
+%                     "partCount": 1328,
+%                     "theme": {
+%                         "id": 158
+%                     }
+%                 }
+%             }
+%         ],
+%     }
+% }
+%         \end{minted}
+%   \caption{\label{elasticsearch-response}}
+% \end{listing}
+
+
+% \subsection{}
+
+% \begin{listing}[htbp]
+%   \begin{minted}{javascript}
+% $('.ui.search')
+%     .search({
+%         type: 'category',
+%         apiSettings: {
+%             action: 'search',
+%             url: routes.search_autocomplete+'?query={query}',
+%         },
+%         minCharacters: 3,
+%         fields: {
+%             title: 'name',
+%             description: 'id',
+%             url: 'url',
+%             image: 'img'
+%         }
+%     });
+%         \end{minted}
+%   \caption{\label{semantic-search}}
+% \end{listing}
