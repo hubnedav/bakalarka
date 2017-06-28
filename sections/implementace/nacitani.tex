@@ -4,7 +4,7 @@
 Mechanizmus načítání a aktualizace knihovny LDraw je implementován s~využitím Symfony komponenty Console. Administrátor aplikace může spouštět jednotilvé příkazy podle instrukcí uvedených v~dodatku \emph{\ref{append:instalace}}. Na základě těchto příkazů jsou následně načítána data do databáze a prováděn převod formátu. V~ukázce kódu \emph{\ref{ukazka-prikaz-ldraw}} je možné vidět volání příkazu pro načtení knihovny LDraw.
 
 \begin{listing}[htbp]
-        \begin{minted}{bash}
+        \begin{minted}{console}
 $ bin/console app:load:ldraw --all
 ------------------------------------------------------------------------
 Downloading LDraw library
@@ -84,7 +84,7 @@ try {
 \end{listing}
 
 \begin{listing}[htbp]
-        \begin{minted}{text}
+        \begin{minted}{console}
 [2017-05-27 22:54:05] loader.INFO: Model skipped. {"number":"004695a","type":"Sticker"} []
 [2017-05-27 22:54:05] loader.INFO: Model skipped. {"number":"004695b","type":"Sticker"} []
 [2017-05-27 22:54:05] event.ERROR: Subpart file not found {"subpart":"2-4cyli","model":"3820"} []
