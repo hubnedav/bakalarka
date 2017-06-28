@@ -25,8 +25,8 @@ Při implementaci aplikace byla kromě základních komponent frameworku Symfony
     umožňuje využívání různých cachovacích systémů poskytovaných knihovnou Doctrine Cache. \autocite{doctrinecache}
 
 \subsection{Databáze}
-Framework Syfony používá pro persistenci dat \gls{ORM} Doctrine 2. Dotazy na databázi se provádějí přes entity manager a třídy
-rezpozitářů (ve kterých jsou definované složitější dotazy), které entity manager využívají. V~Doctrine 2 mají třídy anotované atributy, které se mají persistovat. Pomocí anotací jsou definované vztahy mezi třídami, datové typy sloupců databáze a mapování.
+Framework Symfony používá pro persistenci dat \gls{ORM} Doctrine 2. Dotazy na databázi se provádějí přes entity manager a třídy
+repozitářů (ve kterých jsou definované složitější dotazy), které entity manager využívají. V~Doctrine 2 mají třídy anotované atributy, které se mají persistovat. Pomocí anotací jsou definované vztahy mezi třídami, datové typy sloupců databáze a mapování.
 
 Pro vývoj a běh aplikace jsem použil MySQL, který je druhým nepoužívanějším databázovým serverem \autocite{database-servers}. Zároveň by však vzhledem k~abstrakci poskytované knihovou Doctrine 2 bylo možné zvolit i jiný databázový server (s~nutností zohlednění při implementaci načítání CSV tabulek Rebrickable, popsané v~sekci \ref{nacitani-rebrickable}).
 
@@ -47,5 +47,3 @@ Pro tvorbu práce jsem se rozhodoval kromě využití pro mě již známého fra
     \end{minted}
   \caption{Ukázka definice mřížky pomocí Semantic UI\label{ukazka-semantic}}
 \end{listing}
-
-\subsubsection{}
