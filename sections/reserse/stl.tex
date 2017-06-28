@@ -1,2 +1,10 @@
 \subsection{STL}
-Souborový formát \textit{\gls{STL}}, byl vyvinut firmou 3D Systems. Soubor popisuje třírozměrnou povrchovou geometrii modelu a je nejčastěji používaným souborovým formátem pro potřeby 3D tisku. \autocite{3DAddFab}
+Souborový formát \textit{\gls{STL}}, byl vyvinut firmou 3D Systems. Soubor popisuje trojrozměrnou povrchovou geometrii modelu a je nejčastěji používaným souborovým formátem pro potřeby 3D tisku. \autocite{3DAddFab}
+
+Modely ve formátu \textit{\gls{STL}} jsou reprezentovány trojúhelníkovou sítí. Každý trojúhelník je popsán třemi krajními body a normálovým vektorem. \autocite{stl:specification}
+
+\textit{\gls{STL}} modely je možné ukládat dvěma způsoby:  
+\begin{itemize}
+    \item \textbf{ASCII} verze formátu je čitelná pro člověka. Je však datově velmi neefektivní.
+    \item \textbf{Binární} verze formátu nabízí efektivnější uložení dat modelu za cenu ztráty čitelnosti.
+\end{itemize}
