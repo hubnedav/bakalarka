@@ -84,18 +84,18 @@ Pro kompletní požadavky navštivte Symfony 3.3 dokumentaci \autocite{symfony:r
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Nastavte parametry aplikace v~souboru \mintinline{console}{app/config/parameters.yml}.
+  Nastavte parametry aplikace v~souboru \\\mintinline{console}{app/config/parameters.yml}.
 \item
-  Vygenerujte prázdnou databázi příkazem \mintinline{console}{$ bin/console doctrine:database:create}.
+  Vygenerujte prázdnou databázi příkazem \\\mintinline{console}{$ bin/console doctrine:database:create}.
 \item
-  Vytvořte tabulky databáze přikazem \mintinline{console}{$ bin/console doctrine:schema:create}.
+  Vytvořte tabulky databáze přikazem \\\mintinline{console}{$ bin/console doctrine:schema:create}.
 \item
-  Načtěte výchozí data do databáze \mintinline{console}{$ bin/console doctrine:fixtures:load}.
+  Načtěte výchozí data do databáze \\\mintinline{console}{$ bin/console doctrine:fixtures:load}.
 \end{enumerate}
 
 \subsubsection*{Načtení dat}\label{load-data}
 
-Kompletní inicializace dat aplikace může být provedena příkazem \mintinline{console}{$ bin/console app:init}.
+Kompletní inicializace dat aplikace může být provedena příkazem \\\mintinline{console}{$ bin/console app:init}.
 
 Tento příkaz se skládá z~několika podpříkazů, které mohou být spuštěny samostatně:
 
@@ -107,7 +107,7 @@ Načtení součástek knihovny LDraw \mintinline{console}{$ bin/console app:load
 \item
 Načtení databáze Rebrickable \mintinline{console}{$ bin/console app:load:rebrickable}.
 \item
-Spárování součástek knihovny LDraw a databáze Rebrickable \mintinline{console}{$ bin/console app:load:relations}.
+Spárování součástek knihovny LDraw a databáze Rebrickable \\\mintinline{console}{$ bin/console app:load:relations}.
 \item
 Stažení/vykreslení obrázků součástek \mintinline{console}{$ bin/console app:load:images [--color=INT] [--rebrickable] [--missing]}.
 \item
@@ -119,7 +119,7 @@ Zaindexování Elasticsearch \mintinline{console}{$ bin/console fos:elastica:pop
 
 Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárováný při běhu příkazu \mintinline{console}{$ bin/console app:load:relations}.
 
-Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících dvojic ID do souboru \mintinline{console}{app/Resources/relations/part_model.yml}.
+Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících ID do souboru \mintinline{console}{app/Resources/relations/part_model.yml}.
 
 \subsection*{Testování}\label{testing}
 
@@ -129,9 +129,9 @@ Testy využívají zvláštní databázi, která musí být před prvním spušt
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Vygenerujte prázdnou databázi příkazem \mintinline{console}{$ bin/console doctrine:database:create --env=test}.
+  Vygenerujte prázdnou databázi příkazem \\\mintinline{console}{$ bin/console doctrine:database:create --env=test}.
 \item
-  Vytvořte tabulky databáze přikazem \mintinline{console}{$ bin/console doctrine:schema:create --env=test}.
+  Vytvořte tabulky databáze přikazem \\\mintinline{console}{$ bin/console doctrine:schema:create --env=test}.
 \end{enumerate}
 
 Kompletní systémové testy mohou být spučtěny příkazem \mintinline{console}{$ phpunit}.
