@@ -1,7 +1,7 @@
 \section{Použité technologie}\label{implementace-technologie}
 
 \subsection{Framework Symfony}  
-Symfony je sada znovupoužitelných komponent PHP a PHP framework pro tvorbu webových projektů \autocite{symfony}. Jedná se o~jeden z~celosvětově nejpoužívanějších nástrojů pro tvorbu webových stránek \autocite{php-frameworky}.
+Symfony je sada znovupoužitelných komponent a PHP framework pro tvorbu webových projektů \autocite{symfony}. Jedná se o~jeden z~celosvětově nejpoužívanějších nástrojů pro tvorbu webových stránek \autocite{php-frameworky}.
 
 \subsection{Komponenty}
 Při implementaci aplikace byla kromě základních komponent frameworku Symfony využita celá řada dalších komponent třetích stran:
@@ -28,12 +28,12 @@ Při implementaci aplikace byla kromě základních komponent frameworku Symfony
 Framework Symfony používá pro persistenci dat \gls{ORM} Doctrine 2. Dotazy na databázi se provádějí přes entity manager a třídy
 repozitářů (ve kterých jsou definované složitější dotazy), které entity manager využívají. V~Doctrine 2 mají třídy anotované atributy, které se mají persistovat. Pomocí anotací jsou definované vztahy mezi třídami, datové typy sloupců databáze a mapování.
 
-Pro vývoj a běh aplikace jsem použil MySQL, který je druhým nepoužívanějším databázovým serverem \autocite{database-servers}. Zároveň by však vzhledem k~abstrakci poskytované knihovou Doctrine 2 bylo možné zvolit i jiný databázový server (s~nutností zohlednění při implementaci načítání CSV tabulek Rebrickable, popsané v~sekci \ref{nacitani-rebrickable}).
+Pro vývoj a běh aplikace jsem použil MySQL, který je druhým nepoužívanějším databázovým serverem \autocite{database-servers}. Zároveň by však vzhledem k~abstrakci poskytované knihovou Doctrine 2 bylo možné zvolit i jiný databázový server (s~nutností zohlednění při implementaci načítání CSV tabulek Rebrickable, popsané v~sekci \emph{\ref{nacitani-rebrickable}}).
 
 \subsection{Front-end}
 Pro usnadnění práce při tvorbě projektu poskytujícího uživatelské rozhraní je vhodné využítí front-end framoworku. Frameworky definují vzhled a chování nejzákladnějších, často používaných prvků. 
 
-Pro tvorbu práce jsem se rozhodoval kromě využití pro mě již známého framworku Bootstrap 3 také nad možností využití dalších nejpoužívanějších alternativ – Foundation a Sematnic UI \autocite{web:frameworks}. Pro mou aplikaci jsem se nakonec rozhodnul využít frameworku Semantic UI. Semantic UI při definování tříd používá přirozené názvy vycházející z~angličtiny, tudíž je jeho použití velmi intuitivní a naučení používání by mělo být velmi snadné. V~ukázce kódu \ref{ukazka-semantic} je možné vidět příklad definice mřížky se třemi sloupečky pomocí Sematnic UI.
+Pro tvorbu práce jsem se rozhodoval kromě využití pro mě již známého framworku Bootstrap 3 také nad možností využití dalších nejpoužívanějších alternativ – Foundation a Sematnic UI \autocite{web:frameworks}. Pro mou aplikaci jsem se nakonec rozhodnul využít frameworku Semantic UI. Semantic UI při definování tříd používá přirozené názvy vycházející z~angličtiny, tudíž je jeho použití velmi intuitivní a naučení používání by mělo být velmi snadné. V~ukázce kódu \emph{\ref{ukazka-semantic}} je možné vidět příklad definice mřížky se třemi sloupečky pomocí Sematnic UI.
 
 \begin{listing}[htbp]
   \begin{minted}{html}
