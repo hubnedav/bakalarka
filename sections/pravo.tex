@@ -1,13 +1,13 @@
 \chapter{Právní aspekty} 
-V této kapitole budou rozebrány právní aspekty výsledné aplikace, aby mohlo být rozhodnuto o možnosti zveřejnění do sítě Internet. 
+V~této kapitole budou rozebrány právní aspekty výsledné aplikace, aby mohlo být rozhodnuto o~možnosti zveřejnění do sítě Internet. 
 
 \section{Zdroje dat}
-Při analyzování právních aspektů aplikace je v první řadě nutné zhodnotit veškeré využité zdroje dat v aplikaci. 
+Při analyzování právních aspektů aplikace je v~první řadě nutné zhodnotit veškeré využité zdroje dat v~aplikaci. 
 
 \subsection{LDraw}
-Jak již bylo uvedeno v sekci \autocite{reserse-ldraw} všechny součástky knihovny LDraw jsou sdíleny pod licencí \gls{CC-BY} \autocite{CC-BY}.
+Jak již bylo uvedeno v~sekci \autocite{reserse-ldraw} všechny součástky knihovny LDraw jsou sdíleny pod licencí \gls{CC-BY} \autocite{CC-BY}.
 
-Aby byla dodržena licence knihovny LDraw při sdílení 3D modelů součástek, je nutné spolu se staženými soubory jednoznačně uvést autora dle licence. Toho je docíleno přidáním souboru LICENSE.txt do sdíleného archivu. Příklad tohoto souboru je možné vidět v ukázce kódu \ref{ukazka-licence} zobrazující licenční soubor, zahrnutý v archivu stavebnice \textit{2000416-1 Duck}.
+Aby byla dodržena licence knihovny LDraw při sdílení 3D modelů součástek, je nutné spolu se staženými soubory jednoznačně uvést autora dle licence. Toho je docíleno přidáním souboru LICENSE.txt do sdíleného archivu. Příklad tohoto souboru je možné vidět v~ukázce kódu \ref{ukazka-licence} zobrazující licenční soubor, zahrnutý v~archivu stavebnice \textit{2000416-1 Duck}.
 
 \begin{listing}[htbp]
         \begin{minted}{text}
@@ -28,13 +28,13 @@ Attribution:
 \end{listing}
 
 \subsection{Rebrickable}
-Jak již bylo řečeno v kapitole \ref{reserse-rebrickable}, Rebrickable poskytuje svá data volně bez nároků a omezení.
+Jak již bylo řečeno v~kapitole \ref{reserse-rebrickable}, Rebrickable poskytuje svá data volně bez nároků a omezení.
 
 \subsection{Brickset}
-API služby Brickset je volně dostupné k vytváření doplňkových webových stránek nebo služeb bez uvedení omezujících podmínek. \autocite{brickset:key} 
+API služby Brickset je volně dostupné k~vytváření doplňkových webových stránek nebo služeb bez uvedení omezujících podmínek. \autocite{brickset:key} 
 
 \section{Obchodní značka LEGO}
-Obchodní značka LEGO může být použita v případě dodržení určitých podmínek i na neoficiálních webových stránkách, na kterých jsou zobrazovány nebo diskutovány prvky LEGO. Instrukce vydané společností LEGO jsou dostupné na \autocite{lego:fair-play}.
+Obchodní značka LEGO může být použita v~případě dodržení určitých podmínek i na neoficiálních webových stránkách, na kterých jsou zobrazovány nebo diskutovány prvky LEGO. Instrukce vydané společností LEGO jsou dostupné na \autocite{lego:fair-play}.
 
 Shrnutí instrukcí: 
 \begin{itemize}
@@ -42,11 +42,11 @@ Shrnutí instrukcí:
         \item obchodní značka LEGO by se měla při každém použití vždy zobrazovat symbolem ®,
         \item musí být zřejmé, že stránka není sponzorována nebo autorizována společností LEGO,
         \item obchodní značka nesmí být zvýrazňována,
-        \item značka LEGO nemůže být použita v internetové adrese,
-        \item stránka by měla obsahovat prohlášení o popření právního nároku.
+        \item značka LEGO nemůže být použita v~internetové adrese,
+        \item stránka by měla obsahovat prohlášení o~popření právního nároku.
 \end{itemize}
 
-Všechny tyto instrukce byly zohledněny při tvrobě aplikace, včetně přidání prohlášení o popření právního nároku do patičky (viz ukázka kódu \ref{ukazka-prohlaseni}). Při tvorbě tohoto prohlášení jsem se inspiroval prohlášením z patičky stránky služby Brickset \autocite{brickset:about}.
+Všechny tyto instrukce byly zohledněny při tvrobě aplikace, včetně přidání prohlášení o~popření právního nároku do patičky (viz ukázka kódu \ref{ukazka-prohlaseni}). Při tvorbě tohoto prohlášení jsem se inspiroval prohlášením z~patičky stránky služby Brickset \autocite{brickset:about}.
 
 \begin{listing}[htbp]
         \begin{minted}{text}
@@ -54,8 +54,8 @@ LEGO®, the LEGO logo, the Minifigure, and the Brick and Knob
 configurations are trademarks of the LEGO Group of Companies which
 does not sponsor, authorize, or endorse this site.
         \end{minted}
-    \caption{Prohlášení o popření právního nároku v patičce stránky\label{ukazka-prohlaseni}}
+    \caption{Prohlášení o~popření právního nároku v~patičce stránky\label{ukazka-prohlaseni}}
 \end{listing}
 
 \section{Závěr}
-Při implementaci byly zohledněny licenční podmínky všech služeb, využitých balíčků i instrukce společnosti LEGO pro neoficiální webové stránky a nebyly shledány žádné překážky k zveřejnění. Výsledná webová aplikace tedy může být zveřejněna do sítě Internet.
+Při implementaci byly zohledněny licenční podmínky všech služeb, využitých balíčků i instrukce společnosti LEGO pro neoficiální webové stránky a nebyly shledány žádné překážky k~zveřejnění. Výsledná webová aplikace tedy může být zveřejněna do sítě Internet.

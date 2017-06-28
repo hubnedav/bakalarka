@@ -46,7 +46,7 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
         V~ukázce kódu \ref{ukazka-soucastky-ldraw} můžeme vidět příklad jednoduché součástky ve formátu LDraw. Tuto vyrenderovanou součástku je možné vidět na obrázku~\ref{obrazek-ldraw-soucastka}.
             
        \begin{listing}[htbp]
-            \begin{minted}[bgcolor=codebg]{text}
+            \begin{minted}{text}
 0 Brick  2 x  2
 0 Name: 3003.dat
 0 Author: James Jessiman
@@ -166,7 +166,7 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
     \end{figure}
 
       \begin{listing}[htbp]
-        \begin{minted}[bgcolor=codebg]{text}
+        \begin{minted}{text}
 0 ~Moved to 6141
 0 Name: 4073.dat
 0 Author: [PTadmin]
@@ -194,34 +194,34 @@ Pro tvorbu mé bakalářské práce jsou důležité pouze první dvě zmíněn�
         \caption{Ukázka součástky typu \textit{Shortcut} \autocite{rebrickable:part:image:970c00}\autocite{rebrickable:part:image:3815}\autocite{rebrickable:part:image:3816}\autocite{rebrickable:part:image:3817}\label{obrazek-ldraw-shortcut}}
     \end{figure}
 
-    Pravidla pojmenovávání jednotlivých souborů s~ohledem na jejich typ jsou znázorněna v~tabulce \ref{tabulka-ldraw-cislovani}.
+    % Pravidla pojmenovávání jednotlivých souborů s~ohledem na jejich typ jsou znázorněna v~tabulce \ref{tabulka-ldraw-cislovani}.
 
-    \begin{table}[th!]
-    \centering
-        \caption{Shrnutí pravidel pro číslování součástek \autocite{ldraw:numbering:faq}}
-        \label{tabulka-ldraw-cislovani}
-        \begin{tabularx}{\textwidth}{@{}rX@{}}
-        \toprule
-        Vzor pojmenovávání & Typ prvku
-        \\ \midrule
-        nnn, nnnn, nnnnn & \textit{Part}
-        \\
-        <number>Cnn & \textit{Shortcut}
-        \\
-        <number>Dnn & kombinace \textit{Part} a \textit{Sticker}
-        \\
-        <number>Pxx & \textit{Patterned} 
-        \\
-        s/<number> & \textit{Subpart} (umístěná ve složce parts/s)
-        \\
-        <number>a & Novější verze součásky <number>
-         \\
-        \bottomrule
-        \multicolumn{2}{l}{n = číslice, x = číslice/písmeno, a = písmeno}
-        \\
-        \multicolumn{2}{l}{<number> = kompletní pojmenovávání jiného prvku}
-        \end{tabularx}
-    \end{table}
+    % \begin{table}[th!]
+    % \centering
+    %     \caption{Shrnutí pravidel pro číslování součástek \autocite{ldraw:numbering:faq}}
+    %     \label{tabulka-ldraw-cislovani}
+    %     \begin{tabularx}{\textwidth}{@{}rX@{}}
+    %     \toprule
+    %     Vzor pojmenovávání & Typ prvku
+    %     \\ \midrule
+    %     nnn, nnnn, nnnnn & \textit{Part}
+    %     \\
+    %     <number>Cnn & \textit{Shortcut}
+    %     \\
+    %     <number>Dnn & kombinace \textit{Part} a \textit{Sticker}
+    %     \\
+    %     <number>Pxx & \textit{Patterned} 
+    %     \\
+    %     s/<number> & \textit{Subpart} (umístěná ve složce parts/s)
+    %     \\
+    %     <number>a & Novější verze součásky <number>
+    %      \\
+    %     \bottomrule
+    %     \multicolumn{2}{l}{n = číslice, x = číslice/písmeno, a = písmeno}
+    %     \\
+    %     \multicolumn{2}{l}{<number> = kompletní pojmenovávání jiného prvku}
+    %     \end{tabularx}
+    % \end{table}
 
     \subsubsection*{Licence}\label{ldraw-licence}
     Všechny součástky zahrnuté do oficiální knihovny LDraw jsou vydány pod licencí \gls{CC-BY} \autocite{CC-BY}. Ta umožňuje úpravu i sdílení díla za předpokladu dodržení podmínky o~uvedení autora, licence a označení případných provedených změn.

@@ -1,4 +1,4 @@
-\subsection{LDView}
+\subsection{LDView}\label{podsekce-ldview}
 LDView je 3D prohlížeč modelů a součástek ve formátu LDraw, představeného v~sekci \nameref{ldraw-format} na straně \pageref{ldraw-format}. Program je veřejně dostupný pod licencí \gls{GPLv2} \autocite{GPLv2}.
 
 Mezi jedny z~funkcí programu patří: 
@@ -15,12 +15,12 @@ Pro více informací o~programu a jeho dostupných funkcích doporučuji \autoci
 
 Převod formátu LDraw do jiných formátů pomocí programu LDView je velmi jednoduchý. V~ukázce \ref{priklad-ldview} je příklad použití konzolové verze programu. 
 
-Při konzultaci s~vedoucím bylo odhaleno, že převedené součástky mají 10krát menší meřítko a jsou o~90° otočené kolem osy X. Formát \gls{STL} dle specifikace \autocite{stl:specification} nemá jednotku a není definováno která osa ukazuje směrem vzhůru. Při \gls{FDM} 3D tisku je však praxí, že se předpokládá jenotka mm a osa Z~směřující vzhůru. Z~tohoto důvodu je vhodné provést korekci souborů \textit{STL}.
+Při konzultaci s~vedoucím bylo odhaleno, že převedené součástky mají 10krát menší meřítko a jsou o~90° otočené kolem osy X. Formát \textit{\gls{STL}} dle specifikace \autocite{stl:specification} nemá jednotku a není definováno která osa ukazuje směrem vzhůru. Při \gls{FDM} 3D tisku je však praxí, že se předpokládá jenotka mm a osa Z~směřující vzhůru. Z~tohoto důvodu je vhodné provést korekci souborů \textit{STL}.
 
 Oprava těchto chyb ve zdrojovém kódu programu by stála velké množství práce a náročné zorientování se v~cizím kódu. Proto jsem se rozhodl opravu měřítka a natočení modelu provést pomocí nástroje ADMesh. 
 
  \begin{listing}[htbp]
-        \begin{minted}[bgcolor=codebg]{bash}
+        \begin{minted}{bash}
 $ ldview ./ldraw/parts/3003.dat -LDrawDir=./ldraw -ExportFile=3003.stl 
         \end{minted}
     \caption{Příklad použití programu LDView \label{priklad-ldview}}

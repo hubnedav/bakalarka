@@ -1,16 +1,16 @@
 \section{Požadavky}
-V této sekci jsou shrnuty požadavky kladené na vytvářenou aplikaci specifikované v zadání této práce. Požadavky jsou rozděleny na funkční a nefunkční.
+V~této sekci jsou shrnuty požadavky kladené na vytvářenou aplikaci specifikované v~zadání této práce. Požadavky jsou rozděleny na funkční a nefunkční.
 
 \subsection{Funkční požadavky}
 
 \begin{enumerate}[label=FP-\arabic*]
     \item \label{fp:model:search} \textbf{Procházení, vyhledávání a prohlížení součástek a stavebnic}
 
-    Aplikace musí umožňovat procházení, vyhledávání a prohlížení součástek z knihovny LDraw a stavebnic z databáze Brickset. 
+    Aplikace musí umožňovat procházení, vyhledávání a prohlížení součástek z~knihovny LDraw a stavebnic z~databáze Brickset. 
 
     \item \label{fp:model:download} \textbf{Stažení 3D modelů}
 
-    3D modely součástek musí být možno stáhnout samostatně i v sadách modelů obsažených v jednotlivých stavebnicích. Stavebnice navíc musí být možno stáhnout i ve verzi roztříděné podle barev součástek.
+    3D modely součástek musí být možno stáhnout samostatně i v~sadách modelů obsažených v~jednotlivých stavebnicích. Stavebnice navíc musí být možno stáhnout i ve verzi roztříděné podle barev součástek.
 
     \item \label{fp:model:prevod} \textbf{Zajistění převodu formátu LDraw na formát vhodný pro 3D tisk}
 
@@ -22,7 +22,7 @@ V této sekci jsou shrnuty požadavky kladené na vytvářenou aplikaci specifik
 
     \item \label{fp:model:update} \textbf{Automatická aktualizace databáze LDraw}
 
-    Databázi součástek z knihovny musí být možné automaticky aktualizovat.
+    Databázi součástek z~knihovny musí být možné automaticky aktualizovat.
 
 \end{enumerate}
 
@@ -30,7 +30,13 @@ V této sekci jsou shrnuty požadavky kladené na vytvářenou aplikaci specifik
 
 \begin{enumerate}[label=NP-\arabic*,resume]
     \item \label{np:opensource} \textbf{Open-source kód}
+
+    Zdrojový kód aplikace musí být vydán pod open-source licencí.
+
     \item \label{np:webgl} \textbf{Využití WebGL pro 3D náhled součástek}
+    
+    K~interaktivnímu prohlížení součástek ve 3D náhledu musí být využito \gls{WebGL}.
+
     \item \label{np:structure} \textbf{Dobře strukturovaný, řádně otestovaný, vhodně okomentovaný a dokumentovaný zdrojový kód}
-    \item \label{np:english} \textbf{Komentáře i dokumentace v anglickém jazyce}
+    \item \label{np:english} \textbf{Komentáře i dokumentace v~anglickém jazyce}
 \end{enumerate}

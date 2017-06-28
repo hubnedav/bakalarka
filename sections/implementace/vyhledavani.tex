@@ -1,5 +1,5 @@
 \section{Vyhledávání}
-Podle funkčního požadavku \ref{fp:model:search} musí aplikace umožňovat vyhledávání a procházení součástek a stavebnic. Jak již bylo zmíněno v podkapitole \ref{implementace-technologie}, k realizaci tohoto požadavku jsem využil fulltextového vyhledávače Elasticsearch \autocite{elasticsearch}. Pro implemetaci konkrétně balíček FOSElasticaBundle \autocite{foselastica}, který integruje PHP knihovu pro komunikaci s Elasticsearch serverem přes \gls{REST} API do frameworku Symfony.
+Podle funkčního požadavku \ref{fp:model:search} musí aplikace umožňovat vyhledávání a procházení součástek a stavebnic. Jak již bylo zmíněno v~podkapitole \ref{implementace-technologie}, k~realizaci tohoto požadavku jsem využil fulltextového vyhledávače Elasticsearch \autocite{elasticsearch}. Pro implemetaci konkrétně balíček FOSElasticaBundle \autocite{foselastica}, který integruje PHP knihovu pro komunikaci s~Elasticsearch serverem přes \gls{REST} API do frameworku Symfony.
 
 % \subsection{Konfigurace}
 % \begin{listing}[htbp]
@@ -35,7 +35,7 @@ Podle funkčního požadavku \ref{fp:model:search} musí aplikace umožňovat vy
 
 \subsection{Nastavení indexování}
 Vyhledávání a filtrování kolekce probíhá na základě nastavených pravidel indexování enitit. Ukázku nastavení indexování entity \textit{Set} je 
-možné vidět v ukázce kódu \ref{elasticsearch-set-index}. Nastavní probíhá pomocí konfiguračního souboru ve formátu \gls{YAML} a určuje atributy společně s metodou indexace.
+možné vidět v~ukázce kódu \ref{elasticsearch-set-index}. Nastavní probíhá pomocí konfiguračního souboru ve formátu \gls{YAML} a určuje atributy společně s~metodou indexace.
 
 \begin{listing}[htbp]
   \begin{minted}{yaml}
@@ -68,7 +68,7 @@ fos_elastica:
 \end{listing}
 
 \subsection{Vyhledávání}
-Vyhledávání je v aplikaci zajišťováno službou \textit{SearchService}. Služba na základě formuláře s využitím repozitářů připraví dotaz, který je následně odeslán na vyhledávací server Elasticsearch v podobě zobrazené v ukázce kódu \ref{elasticsearch-query}. Následně jsou získaná data z odpovědi automaticky namapována na entity s využitím Doctrine 2 a vrácen výsledek.
+Vyhledávání je v~aplikaci zajišťováno službou \textit{SearchService}. Služba na základě formuláře s~využitím repozitářů připraví dotaz, který je následně odeslán na vyhledávací server Elasticsearch v~podobě zobrazené v~ukázce kódu \ref{elasticsearch-query}. Následně jsou získaná data z~odpovědi automaticky namapována na entity s~využitím Doctrine 2 a vrácen výsledek.
 
 \begin{listing}[htbp]
   \begin{minted}{json}
