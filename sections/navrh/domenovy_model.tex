@@ -48,7 +48,7 @@ První balíček obsauje entity týkající se součástek z~knihovny LDraw.
   \end{table}
 
 \subsubsection*{Author}
-Entita \textit{Author} reprezentuje autora, který svými modely přispívá do knihovny LDraw. Aby mohl být model zahrnut do oficiální knihovny, musí být autor registrován a projevit souhlas s Dohodou přispěvatelů Ldraw.org \autocite{ldraw:agreement}.
+Entita \textit{Author} reprezentuje autora, který svými modely přispívá do knihovny LDraw. Aby mohl být model zahrnut do oficiální knihovny, musí být autor registrován a projevit souhlas s~Dohodou přispěvatelů Ldraw.org \autocite{ldraw:agreement}.
   
 \subsubsection*{Alias}
 Entita \textit{Alias} reprezentuje alternativní identifikátor modelu, na který má vazbu. 
@@ -79,7 +79,7 @@ Entita \textit{Part} reprezentuje jednu unikátní součásku LEGO z~databáze R
 Stavebnice může být během času vydána v~novější verzi, ve které je například vyměněna pouze jedna součástka. To vede k~potřebě zvláštní entity \textit{Inventory}, která reprezentuje tyto verze inventářů. 
 
 \subsubsection*{Inventory\_Part} 
-Součástky se ve stavebnicích mohou vyskytovat v~různých barevných provedeních. Dále je běžné, že stevebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k~jejich sestavení. Proto je v nutná entita \textit{Inventory\_Part}, která umožňuje zaznamenání tohoto vztahu mezi součástkou a inventářem, včetně informace o počtu, barvě a typu součástky.
+Součástky se ve stavebnicích mohou vyskytovat v~různých barevných provedeních. Dále je běžné, že stevebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k~jejich sestavení. Proto je v~nutná entita \textit{Inventory\_Part}, která umožňuje zaznamenání tohoto vztahu mezi součástkou a inventářem, včetně informace o~počtu, barvě a typu součástky.
 
 \subsubsection*{Inventory\_Set}
 Stavebnice se nemusejí skládat pouze ze součástek, ale mohou sdružovat i větší množství jiných stavebnic. Proto je nutná entita \textit{Inventory\_Set}, která reprezentuje tento vzah mezi stavebnicí a inventářem.
@@ -120,15 +120,15 @@ Třetí balíček popisuje strukturu dat dostupných přes Brickset \gls{API}.
 \end{figure}
 
 \subsubsection*{Set}
-Entita \textit{Set} reprezentuje jednu stavebnici LEGO. Tato entita odpovídá právě nebo žádné entitě \textit{Set} z balíků Rebrickable.  
+Entita \textit{Set} reprezentuje jednu stavebnici LEGO. Tato entita odpovídá právě nebo žádné entitě \textit{Set} z~balíků Rebrickable.  
 
 \subsubsection*{Review}
-Brickset umožňuje uživatelům vytvářet recenze na stavebnice. Tyto recenze jsou reprezentovány entitou \textit{Review}. Recenze kromě textového popisu obsahuje i číselné hodnocení havních kritérií, znázorněných v diagramu.
+Brickset umožňuje uživatelům vytvářet recenze na stavebnice. Tyto recenze jsou reprezentovány entitou \textit{Review}. Recenze kromě textového popisu obsahuje i číselné hodnocení havních kritérií, znázorněných v~diagramu.
 
 \subsubsection*{Instruction} 
-Instrukce k postavení stavebnice je reprezentována entitou \textit{Instruction}.
+Instrukce k~postavení stavebnice je reprezentována entitou \textit{Instruction}.
 
 \subsubsection*{AdditionalImage} 
-Entita \textit{AdditionalImage} reprezentuje jeden obrázek stavebnice. Obrázky jsou dostupné kromě původní velikosti i v podobě miniatur.
+Entita \textit{AdditionalImage} reprezentuje jeden obrázek stavebnice. Obrázky jsou dostupné kromě původní velikosti i v~podobě miniatur.
 
 
