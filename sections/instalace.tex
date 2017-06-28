@@ -1,0 +1,138 @@
+\chapter{Instalační příručka}\label{append:instalace}
+
+\section*{PrintABrick}\label{printabrick}
+
+Webový katalog LEGO® dílů k~3D tisku
+
+\subsubsection*{Systémové požadavky}\label{system-requirements}
+
+\begin{itemize}
+\tightlist
+\item
+  PHP verze 7.0 nebo vyšší
+\item
+  PHP rozšíření
+
+  \begin{itemize}
+  \tightlist
+  \item
+    FTP
+  \item
+    SOAP
+  \item
+    GD
+  \item
+    PDO
+  \item
+    Zip
+  \end{itemize}
+\item
+  \emph{date.timezone} nastaveno v~souboru \emph{php.ini}
+\end{itemize}
+
+Zda váš systém splňuje minimální požadavky Symfony můžete zjistit příkazem \\\mintinline{bash}{$ bin/symfony_requirements}
+
+Pro kompletní požadavky navštivte Symfony 3.3 dokumentaci.
+
+\paragraph{Závislosti}
+
+\begin{itemize}
+\item
+  Elasticsearch \textgreater{}= 5 \autocite{elasticsearch}
+\item
+  POV-Ray \autocite{povray}
+\item
+  stl2pov \autocite{stl2pov}
+\item
+  ADMesh
+\item
+  LDView OSMesa \textgreater{}= 4.2.1 \autocite{ldview}
+\end{itemize}
+
+\subsubsection*{Instalace}\label{installing}
+
+\paragraph{Back-end}\label{back-end}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ujistěte se, že váš systém splňuje minimální požadavky
+\item
+  Nainstalujte závislosti pomocí \href{https://getcomposer.org/}{Composer}, \mintinline{bash}{$ composer install}
+\end{enumerate}
+
+\paragraph{Front-end}\label{front-end}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Nainstalujte npm \autocite{npm} závislosti pomocí \mintinline{bash}{$ npm install}
+\item
+  Nainstalujte bower \autocite{bower} závislosti pomocí \mintinline{bash}{$ bower install}
+\item
+  Zkompilujte zdroje \mintinline{bash}{$ gulp default [--env production]}
+\end{enumerate}
+
+\paragraph{Inicializace}\label{initialization}
+
+\subsubsection*{Nastavení databáze}\label{setup-database}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Nastavte parametry aplikace v~souboru \\ \mintinline{bash}{app/config/parameters.yml}
+\item
+  Vygenerujte prázdnou databázi příkazem \\ \mintinline{bash}{$ bin/console doctrine:database:create}
+\item
+  Vytvořte tabulky databáze přikazem \\ \mintinline{bash}{$ bin/console doctrine:schema:create}
+\item
+  Načtěte výchozí data do databáze \\ \mintinline{bash}{$ bin/console doctrine:fixtures:load}
+\end{enumerate}
+
+\subsubsection*{Načtení dat}\label{load-data}
+
+Kompletní inicializace dat aplikace může být provedena příkazem \mintinline{bash}{$ bin/console app:init}
+
+Tento příkaz se skládá z~několika podpříkazů, které mohou být spuštěny samostatně:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+Načtení součástek knihovny LDraw \\ \mintinline{bash}{$ bin/console app:load:ldraw [--ldraw=PATH] [--all] [--file=FILE] [--update]}
+\item
+Načtení databáze Rebrickable \\ \mintinline{bash}{$ bin/console app:load:rebrickable} 
+\item
+Spárování součástek knihovny LDraw a databáze Rebrickable \\ \mintinline{bash}{$ bin/console app:load:relations} 
+\item
+Stažení/vykreslení obrázků součástek \\ \mintinline{bash}{$ bin/console app:load:images [--color=INT] [--rebrickable] [--missing]}
+\item
+Zaindexování Elasticsearch \mintinline{bash}{$ bin/console fos:elastica:populate}
+\end{enumerate}
+
+
+\subsubsection*{Párování součástek}\label{adding-part-relation}
+
+Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárováný při běhu příkazu \\ \mintinline{bash}{$ bin/console app:load:relations}.
+
+Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících dvojic ID do souboru \\ \mintinline{bash}{app/Resources/relations/part_model.yml}
+
+\subsection*{Testování}\label{testing}
+
+Testy využívají zvláštní databázi, která musí být před prvním spuštěním testů vytvořena. Vytvoření testovací databáze:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Vygenerujte prázdnou databázi příkazem \\ \mintinline{bash}{$ bin/console doctrine:database:create --env=test}
+\item
+  Vytvořte tabulky databáze přikazem \\ \mintinline{bash}{$ bin/console doctrine:schema:create --env=test}
+\end{enumerate}
+
+Kompletní systémové testy mohou být spučtěny příkazem \mintinline{bash}{$ phpunit}.
+
+Tyto testy pokrývají základní funkcionalitu aplikace, včetně testování úspěšnosti volání programů třetích stran,využívaných aplikací.
