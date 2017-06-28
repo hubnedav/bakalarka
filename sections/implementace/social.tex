@@ -1,6 +1,8 @@
 \section{Náhled pro sociální sítě}
 Významným zdrojem návštěvnosti stránek mohou v~dnešní době být i sociální sítě. Aby byl sdílený odkaz na stránku dostatečně zajímavý je třeba stránky rozšířit o~patřičné meta informace. Facebook a většina sociálních sítí ke specifikování náhledu využívá protokol Open Graph představený firmou Facebook v~roce 2010 \autocite{opengraph}.
 
+Vše co je pro vytvoření náhledu pro sociální sítě potřeba, je přidání patřičných Open Graph meta tagů do hlavičky stránky. Pro tento účel jsem vytvořil znovupoužitelné makro šablonovacího systému \textit{Twig} (ukázka kódu \emph{\ref{opengraph-meta}}). Výsledný náhled při stránky stavebice na sociální síti Facebook je zobrazen na obrázku \emph{\ref{facebook-share}}. 
+
 \begin{listing}[htbp]
   \begin{minted}{twig}
 {% macro meta(title,url,description,image,imageHeight,imageWidth) %}
@@ -15,11 +17,11 @@ Významným zdrojem návštěvnosti stránek mohou v~dnešní době být i soci�
     <meta property="twitter:card" content="summary">
 {% endmacro %}
   \end{minted}
-  \caption{\label{opengraph-meta}}
+  \caption{\textit{Twig} makro pro přidání Open Graph meta tagů\label{opengraph-meta}}
 \end{listing}
 
 \begin{figure}[htbp]
-        \centering
-        \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/fbshare.png}
-        \caption{\label{facebook-share}}
+      \centering
+      \includegraphics[width=0.7\textwidth,height=\textheight,keepaspectratio]{images/fbshare.png}
+      \caption{Náhled sdílení stavebnice 2000416-1 Duck\label{facebook-share}}
 \end{figure}
