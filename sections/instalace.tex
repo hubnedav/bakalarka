@@ -119,7 +119,7 @@ Aplikaci můžete spustit na lokálním PHP web serveru příkazem \mintinline{c
 
 \subsubsection*{Párování součástek}\label{adding-part-relation}
 
-Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárováný při běhu příkazu \\\mintinline{console}{$ bin/console app:load:relations}.
+Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárovány při běhu příkazu \\\mintinline{console}{$ bin/console app:load:relations}.
 
 Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících ID do souboru \\\mintinline{console}{app/Resources/relations/part_model.yml}.
 
@@ -136,6 +136,6 @@ Testy využívají zvláštní databázi, která musí být před prvním spušt
   Vytvořte tabulky databáze přikazem \\\mintinline{console}{$ bin/console doctrine:schema:create --env=test}.
 \end{enumerate}
 
-Kompletní systémové testy mohou být spučtěny příkazem \mintinline{console}{$ phpunit}.
+Kompletní systémové testy mohou být spuštěny příkazem \mintinline{console}{$ phpunit}.
 
-Tyto testy pokrývají základní funkcionalitu aplikace, včetně testování úspěšnosti volání programů třetích stran,využívaných aplikací.
+Tyto testy pokrývají základní funkcionalitu aplikace, včetně testování úspěšnosti volání programů třetích stran, využívaných aplikací.

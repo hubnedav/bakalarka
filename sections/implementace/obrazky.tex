@@ -1,8 +1,8 @@
 \section{Obrázky součástek a stavebnic}
 \subsection{Renderování součástek}
-Jak již bylo zmíněno v~sekci \emph{\ref{reserse-vykresleni}}, Rebrickable poskytuje většinu obrázků vyrenderovaných součástek z~knihovny LDraw volně ke stažení. Pro zbytek součástek jsem implementoval mechanizmus vykreslení s~využitím programů stl2pov \autocite{stl2pov} a POV-ray \autocite{povray}.
+Jak již bylo zmíněno v~sekci \emph{\ref{reserse-vykresleni}}, Rebrickable poskytuje většinu obrázků vyrenderovaných součástek z~knihovny LDraw volně ke stažení. Pro zbytek součástek jsem implementoval mechanizmus vykreslení s~využitím programů stl2pov \autocite{stl2pov} a POV-Ray \autocite{povray}.
 
-Vykreslení součástek zajišťuje třída \textit{STLRenderer}. Třída nejprve připraví kompletní scénu, obsahující součástku převedenou pomocí stl2pov do POV-ray formátu. Dále scéna obsahuje definici pozice světel a kamery, specifikované v~souboru \textit{app/Resources/povray\_layout/layout.tmpl}. Následně je pomocí volání programu POV-ray vykreslen obrázek. 
+Vykreslení součástek zajišťuje třída \textit{STLRenderer}. Třída nejprve připraví kompletní scénu, obsahující součástku převedenou pomocí stl2pov do POV-Ray formátu. Dále scéna obsahuje definici pozice světel a kamery, specifikované v~souboru \textit{app/Resources/povray\_layout/layout.tmpl}. Následně je pomocí volání programu POV-Ray vykreslen obrázek. 
 
 Porovnání vyrenderované součástky s~obrázkem součástky z~Rebrickable je možné vidět na obrázku \emph{\ref{porovnani-render}}.
 
@@ -17,7 +17,7 @@ Porovnání vyrenderované součástky s~obrázkem součástky z~Rebrickable je 
 \subsection{Cachování obrázků}
 Pro urychlení načítaní webových stránek jsem implementoval mechanizmus cachování miniatur obrázků součástek a stavebnic. K~práci s~obrázky v~Symfony slouží komponenta LiipImagineBundle \autocite{liipimagine}. LiipImagineBundle umožňuje definování různých filtrů a transformací, které jsou aplikovány na zobrazované obrázky. Transformované obrázky jsou následně uloženy do cache, ze které jsou při dalším požadavku načtené.
 
-Proces vytváření transformovaných obrázků se zakládá ze tří kroků:
+Proces vytváření transformovaných obrázků se skládá ze tří kroků:
 \begin{enumerate}
     \item načtení obrázku,
     \item aplikace flitrů,

@@ -125,7 +125,7 @@ K~umožnění manuálního přiřazení součástek LDraw k~součástkám Rebric
 \end{listing}
 
 \subsection{API Brickset}
-Dalším zdrojem dat využívaným pro obdržení informací o~stavebnicích je API Brickset. Jak již bylo zmíněno v~sekci \emph{\ref{reserse-brickset}}, API Bricsket je implementováno jako služba postavená nad protokolem \gls{SOAP}. V~PHP je pro komunikaci se SOAP servery k~dispozici třída \textit{SOAPClient} \autocite{soapclient}, která za nás obstarává komunikaci na základě definice v~podobě \gls{WSDL} souboru. 
+Dalším zdrojem dat využívaným pro obdržení informací o~stavebnicích je API Brickset. Jak již bylo zmíněno v~sekci \emph{\ref{reserse-brickset}}, API Brickset je implementováno jako služba postavená nad protokolem \gls{SOAP}. V~PHP je pro komunikaci se SOAP servery k~dispozici třída \textit{SOAPClient} \autocite{soapclient}, která za nás obstarává komunikaci na základě definice v~podobě \gls{WSDL} souboru. 
 
 Při získávání statických dat přes API je vhodné využít možnosti cachování k~minimalizaci počtu dotazů na server a k~urychlení načítání dat. K~tomuto jsem využil komponenty DoctrineCacheBundle. V~ukázce kódu \emph{\ref{ukazka-cache}} je zobrazena metoda \mintinline{php}{getSetInstructions} třídy \textit{BricksetManager}, která načítá instrukce k~postavení stavebnice z~cache (pokud se zde data již vyskytují) nebo pomocí Brickset API. 
 
