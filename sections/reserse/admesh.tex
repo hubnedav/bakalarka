@@ -5,13 +5,13 @@ Funkce:
 \begin{itemize}
     \item kontrolování závad (chybné normálové vektory, neuzavřené stěny) i jejich automatická oprava,
     \item rotace modelu,
-    \item traslace,
+    \item translace,
     \item změna velikosti,
     \item čtení a zápis binárních i textových \textit{\gls{STL}} souborů.
 \end{itemize}
 
 \begin{listing}[htbp]
-        \begin{minted}{bash}
+        \begin{minted}{console}
 $ admesh 3003.stl --x-rotate=-90 --scale=10 --no-check --write-binary-stl=3003.stl
         \end{minted}
     \caption{Příklad použití programu ADMesh \label{priklad-admesh}}

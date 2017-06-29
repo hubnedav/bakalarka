@@ -8,7 +8,7 @@ Při vytváření doménového modelu je vycházeno ze tří zdrojů dat, které
   \item Brickset.
 \end{itemize}
 
-Pro větší přehlednost jsem doménový model rozdělil na dva diagramy. Diagram na obrázku \emph{\ref{diagram-domenovy}} popisuje lokálně ukládaná data knihovny LDraw a služy Rebrickable. Diagram na obrázku \emph{\ref{diagram-domenovy-brickset}} data dostupná přes API Brickset. 
+Pro větší přehlednost jsem doménový model rozdělil na dva diagramy. Diagram na obrázku \emph{\ref{diagram-domenovy}} popisuje lokálně ukládaná data knihovny LDraw a služby Rebrickable. Diagram na obrázku \emph{\ref{diagram-domenovy-brickset}} data dostupná přes API Brickset. 
 
 \begin{figure}[htbp]
     \centering
@@ -17,7 +17,7 @@ Pro větší přehlednost jsem doménový model rozdělil na dva diagramy. Diagr
   \end{figure}
 
 \subsection{LDraw}
-První balíček obsauje entity týkající se součástek z~knihovny LDraw.
+První balíček obsahuje entity týkající se součástek z~knihovny LDraw.
 
 \subsubsection*{Model}
   Entita \textit{Model} (tabulka \emph{\ref{table:entity:model}}) reprezentuje jednu součástku z~knihovny LDraw. Atributy entity vychází z~dat obsažených v~jednotlivých souborech knihovny a ze specifikace hlavičky, která byla představena v~podsekci \emph{\nameref{ldraw-hlavicka}} sekce \ref{reserse-ldraw}.
@@ -79,10 +79,10 @@ Entita \textit{Part} reprezentuje jednu unikátní součásku LEGO z~databáze R
 Stavebnice může být během času vydána v~novější verzi, ve které je například vyměněna pouze jedna součástka. To vede k~potřebě zvláštní entity \textit{Inventory}, která reprezentuje tyto verze inventářů. 
 
 \subsubsection*{Inventory\_Part} 
-Součástky se ve stavebnicích mohou vyskytovat v~různých barevných provedeních. Dále je běžné, že stevebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k~jejich sestavení. Proto je v~nutná entita \textit{Inventory\_Part}, která umožňuje zaznamenání tohoto vztahu mezi součástkou a inventářem, včetně informace o~počtu, barvě a typu součástky.
+Součástky se ve stavebnicích mohou vyskytovat v~různých barevných provedeních. Dále je běžné, že stavebnice LEGO obsahují některé součástky navíc, které nejsou nezbytné k~jejich sestavení. Proto je v~nutná entita \textit{Inventory\_Part}, která umožňuje zaznamenání tohoto vztahu mezi součástkou a inventářem, včetně informace o~počtu, barvě a typu součástky.
 
 \subsubsection*{Inventory\_Set}
-Stavebnice se nemusejí skládat pouze ze součástek, ale mohou sdružovat i větší množství jiných stavebnic. Proto je nutná entita \textit{Inventory\_Set}, která reprezentuje tento vzah mezi stavebnicí a inventářem.
+Stavebnice se nemusejí skládat pouze ze součástek, ale mohou sdružovat i větší množství jiných stavebnic. Proto je nutná entita \textit{Inventory\_Set}, která reprezentuje tento vztah mezi stavebnicí a inventářem.
 
 \subsubsection*{Theme}
 Každá stavebnice náleží do série. Série je reprezentována entitou \textit{Theme}. Série může být zároveň podřazena jiné sérii. Zpravidla je zanoření maximálně tři úrovně hluboké.
@@ -123,7 +123,7 @@ Třetí balíček popisuje strukturu dat dostupných přes Brickset \gls{API}.
 Entita \textit{Set} reprezentuje jednu stavebnici LEGO. Tato entita odpovídá právě nebo žádné entitě \textit{Set} z~balíků Rebrickable.  
 
 \subsubsection*{Review}
-Brickset umožňuje uživatelům vytvářet recenze na stavebnice. Tyto recenze jsou reprezentovány entitou \textit{Review}. Recenze kromě textového popisu obsahuje i číselné hodnocení havních kritérií, znázorněných v~diagramu.
+Brickset umožňuje uživatelům vytvářet recenze na stavebnice. Tyto recenze jsou reprezentovány entitou \textit{Review}. Recenze kromě textového popisu obsahuje i číselné hodnocení hlavních kritérií, znázorněných v~diagramu.
 
 \subsubsection*{Instruction} 
 Instrukce k~postavení stavebnice je reprezentována entitou \textit{Instruction}.

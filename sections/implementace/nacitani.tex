@@ -1,7 +1,7 @@
 \section{Načítání dat}
 
 \subsection{Načítání knihovny LDraw}
-Mechanizmus načítání a aktualizace knihovny LDraw je implementován s~využitím Symfony komponenty Console. Administrátor aplikace může spouštět jednotilvé příkazy podle instrukcí uvedených v~dodatku \emph{\ref{append:instalace}}. Na základě těchto příkazů jsou následně načítána data do databáze a prováděn převod formátu. V~ukázce kódu \emph{\ref{ukazka-prikaz-ldraw}} je možné vidět volání příkazu pro načtení knihovny LDraw.
+Mechanizmus načítání a aktualizace knihovny LDraw je implementován s~využitím Symfony komponenty Console. Administrátor aplikace může spouštět jednotlivé příkazy podle instrukcí uvedených v~dodatku \emph{\ref{append:instalace}}. Na základě těchto příkazů jsou následně načítána data do databáze a prováděn převod formátu. V~ukázce kódu \emph{\ref{ukazka-prikaz-ldraw}} je možné vidět volání příkazu pro načtení knihovny LDraw.
 
 \begin{listing}[htbp]
         \begin{minted}{console}
@@ -21,7 +21,7 @@ Done with "0" errors.
     \caption{Ukázka příkazu pro načtení knihovny LDraw\label{ukazka-prikaz-ldraw}}
 \end{listing}
 
-Aplikace umožňuje načítání a aktualizaci celé knihoviny i jednotlivých součástek. Proces načítání jednotlivé součástky je znázorněn na diagramu \emph{\ref{schema-nacitani}} a podrobněji popsán v~následujících podsekcích.
+Aplikace umožňuje načítání a aktualizaci celé knihovny i jednotlivých součástek. Proces načítání jednotlivé součástky je znázorněn na diagramu \emph{\ref{schema-nacitani}} a podrobněji popsán v~následujících podsekcích.
 
 \begin{figure}[htbp]
     \centering
@@ -113,7 +113,7 @@ Jedním z~problémů, který vyvstává při využití různých zdrojů dat pro
 
 Protože obě služby používají lehce odlišný systém číslování součástek (i přes fakt, že číslování Rebrickable vychází z~LDraw), nelze při zohlednění všech pravidel LDraw \autocite{ldraw:numbering:faq} i Rebrickable \autocite{rebrickable:numbering:changes} automaticky rozpoznat vazby všech součástek.
 
-K~umožnění manuálního přiřazení součástek LDraw k~spoučástkám Rebrickable jsem implementoval mechanizmus umožňující definování vazeb pomocí \gls{YAML} souboru \textit{app/Resources/relations/part\_model.yml}. K~načtení souboru je využita komponenta Symfony Yaml Component \autocite{symfony:yaml}. Mapování součástky na model je možné vidět v~ukázce kódu \emph{\ref{ukazka-parovani}}. Tyto vazby jsou následně zohledněny při běhu příkazu pro spárování součástek.
+K~umožnění manuálního přiřazení součástek LDraw k~součástkám Rebrickable jsem implementoval mechanizmus umožňující definování vazeb pomocí \gls{YAML} souboru \textit{app/Resources/relations/part\_model.yml}. K~načtení souboru je využita komponenta Symfony Yaml Component \autocite{symfony:yaml}. Mapování součástky na model je možné vidět v~ukázce kódu \emph{\ref{ukazka-parovani}}. Tyto vazby jsou následně zohledněny při běhu příkazu pro spárování součástek.
 
 \begin{listing}[htbp]
         \begin{minted} {yaml}
@@ -127,7 +127,7 @@ K~umožnění manuálního přiřazení součástek LDraw k~spoučástkám Rebri
 \subsection{API Brickset}
 Dalším zdrojem dat využívaným pro obdržení informací o~stavebnicích je API Brickset. Jak již bylo zmíněno v~sekci \emph{\ref{reserse-brickset}}, API Bricsket je implementováno jako služba postavená nad protokolem \gls{SOAP}. V~PHP je pro komunikaci se SOAP servery k~dispozici třída \textit{SOAPClient} \autocite{soapclient}, která za nás obstarává komunikaci na základě definice v~podobě \gls{WSDL} souboru. 
 
-Při získávání statických dat přes API je vhodné využít možnosti cachování k~minimalizaci počtu dotazů na server a k~urychlení načítání dat. K~tomuto jsem využil komponenty DoctrineCacheBundle. V~ukázce kódu \emph{\ref{ukazka-cache}} je zobrazena metoda \mintinline{php}{getSetInstructions} třídy \textit{BricksetManager}, která načítá insturkce k~postavení stavebnice z~cache (pokud se zde data již vyskytují) nebo pomocí Brickset API. 
+Při získávání statických dat přes API je vhodné využít možnosti cachování k~minimalizaci počtu dotazů na server a k~urychlení načítání dat. K~tomuto jsem využil komponenty DoctrineCacheBundle. V~ukázce kódu \emph{\ref{ukazka-cache}} je zobrazena metoda \mintinline{php}{getSetInstructions} třídy \textit{BricksetManager}, která načítá instrukce k~postavení stavebnice z~cache (pokud se zde data již vyskytují) nebo pomocí Brickset API. 
 
 \begin{listing}[htbp]
         \begin{minted} {php}

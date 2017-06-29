@@ -1,5 +1,5 @@
 \section{Vyhledávání}
-Podle funkčního požadavku \emph{\ref{fp:model:search}} musí aplikace umožňovat vyhledávání a procházení součástek a stavebnic. Jak již bylo zmíněno v~podkapitole \emph{\ref{implementace-technologie}}, k~realizaci tohoto požadavku jsem využil fulltextového vyhledávače Elasticsearch \autocite{elasticsearch}. Pro implemetaci konkrétně balíček FOSElasticaBundle \autocite{foselastica}, který integruje PHP knihovu pro komunikaci s~Elasticsearch serverem přes \gls{REST} API do frameworku Symfony.
+Podle funkčního požadavku \emph{\ref{fp:model:search}} musí aplikace umožňovat vyhledávání a procházení součástek a stavebnic. Jak již bylo zmíněno v~podkapitole \emph{\ref{implementace-technologie}}, k~realizaci tohoto požadavku jsem využil fulltextového vyhledávače Elasticsearch \autocite{elasticsearch}. Pro implementaci konkrétně balíček FOSElasticaBundle \autocite{foselastica}, který integruje PHP knihovu pro komunikaci s~Elasticsearch serverem přes \gls{REST} API do frameworku Symfony.
 
 % \subsection{Konfigurace}
 % \begin{listing}[htbp]
@@ -34,8 +34,8 @@ Podle funkčního požadavku \emph{\ref{fp:model:search}} musí aplikace umožň
 % \end{listing}
 
 \subsection{Nastavení indexování}
-Vyhledávání a filtrování kolekce probíhá na základě nastavených pravidel indexování enitit. Nastavení indexování entity \textit{Set} je 
-možné vidět v~ukázce kódu \emph{\ref{elasticsearch-set-index}}. Nastavní probíhá pomocí konfiguračního souboru ve formátu \gls{YAML} a určuje atributy společně s~metodou indexace.
+Vyhledávání a filtrování kolekce probíhá na základě nastavených pravidel indexování entit. Nastavení indexování entity \textit{Set} je 
+možné vidět v~ukázce kódu \emph{\ref{elasticsearch-set-index}}. Nastavení probíhá pomocí konfiguračního souboru ve formátu \gls{YAML} a určuje atributy společně s~metodou indexace.
 
 \begin{listing}[htbp]
   \begin{minted}{yaml}
