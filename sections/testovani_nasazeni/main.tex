@@ -3,7 +3,7 @@
 \section{Testování}
 V této sekci jsou popsány způsoby, jakými byla aplikace testována. K testování bylo využito jak metodik statické analýzy kvality kódu, tak i automatické testování pomocí jednotkových a integračních testů.
 
-Statická analýza kvality kódu byla provedena nástrojem PHPSpec \autocite{phpsec}. Testování pomocí jednotkových a integračních testů bylo provedeno nástrojem PHPUnit \autocite{phpunit}.
+Statická analýza kvality kódu byla provedena nástrojem PHPSpec \autocite{phpspec}. Testování pomocí jednotkových a integračních testů bylo provedeno nástrojem PHPUnit \autocite{phpunit}.
 Výstup testování pomocí PHPUnit se nachází v ukázce kódu \emph{\ref{phpunit-volani}}. 
 
 
@@ -27,8 +27,11 @@ OK (121 tests, 191 assertions)
 \include{sections/testovani_nasazeni/integracni}
 \include{sections/testovani_nasazeni/pokryti}
 
+\section{Nasazení}
+Aplikace byla nasazena na školní \gls{VPS}, který byl speciálně zřízen pro potřeby mé aplikace. Na serveru bězí operační systém CentOS 7 \autocite{centos}. Vzhedem k tomu, že jsem obdržel administrátorská práva k systému, bylo možné nainstalovat všechny potřebné závislosti, kterých aplikace využívá. 
 
+Při instalaci bylo postupováno podle instalační příručky (příloha \emph{\ref{append:instalace}}), včetně úspešného běhu testů. 
 
-
+Aplikace je nasazena a připravena k~používání na adrese \url{http://printabrick.org}. 
 
 

@@ -103,23 +103,25 @@ Tento příkaz se skládá z~několika podpříkazů, které mohou být spuště
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-Načtení součástek knihovny LDraw \mintinline{console}{$ bin/console app:load:ldraw [--ldraw=PATH] [--all] [--file=FILE] [--update]}.
+Načtení součástek knihovny LDraw \\\mintinline{console}{$ bin/console app:load:ldraw [--ldraw=PATH] [--all] [--file=FILE] [--update]}.
 \item
-Načtení databáze Rebrickable \mintinline{console}{$ bin/console app:load:rebrickable}.
+Načtení databáze Rebrickable \\\mintinline{console}{$ bin/console app:load:rebrickable}.
 \item
 Spárování součástek knihovny LDraw a databáze Rebrickable \\\mintinline{console}{$ bin/console app:load:relations}.
 \item
-Stažení/vykreslení obrázků součástek \mintinline{console}{$ bin/console app:load:images [--color=INT] [--rebrickable] [--missing]}.
+Stažení/vykreslení obrázků součástek \\\mintinline{console}{$ bin/console app:load:images [--color=INT] [--rebrickable] [--missing]}.
 \item
 Zaindexování Elasticsearch \mintinline{console}{$ bin/console fos:elastica:populate}.
 \end{enumerate}
 
+\subsubsection*{Spustění aplikace na lokálním webserveru}
+Aplikaci můžete spustit na lokálním PHP web serveru příkazem \mintinline{console}{$ bin/console server:start}.
 
 \subsubsection*{Párování součástek}\label{adding-part-relation}
 
-Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárováný při běhu příkazu \mintinline{console}{$ bin/console app:load:relations}.
+Vazby mezi součástkami z~knihovny LDraw a součástkami z~databáze Rebrickable jsou automaticky spárováný při běhu příkazu \\\mintinline{console}{$ bin/console app:load:relations}.
 
-Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících ID do souboru \mintinline{console}{app/Resources/relations/part_model.yml}.
+Vazby mezi součástkami, které nebyly automaticky rozpoznány je možné opravit přidáním odpovídajících ID do souboru \\\mintinline{console}{app/Resources/relations/part_model.yml}.
 
 \subsection*{Testování}\label{testing}
 

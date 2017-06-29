@@ -3,7 +3,7 @@ Integrační testy kontrolují, jak spolu třídy nebo moduly navzájem spolupra
 
 Veškeré implementované integrační testy aplikace rozšiřují třídu \textit{BaseTest}, která připravuje prostředí pro běh integračních testů. Aby bylo možné integrační testy provést, jsou vytvořena testovací data. V Symfony je k tomuto účelu určena komponenta DoctrineFixturesBundle \autocite{doctrine:fixtures}. 
 
-Pomocí integračních testů je testována veškerá logika implementovaná v balíčku \textit{LoaderBundle} včetně testů volání programů třetích stran, využívaných k práci se soubory \textit{STL}.
+Pomocí integračních testů je testována veškerá business logika aplikace, včetně testů volání programů třetích stran, využívaných k práci se soubory \textit{STL}.
 
 \begin{listing}[htbp]
         \begin{minted}{php}

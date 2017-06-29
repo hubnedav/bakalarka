@@ -20,7 +20,7 @@ Pro větší přehlednost jsem doménový model rozdělil na dva diagramy. Diagr
 První balíček obsahuje entity týkající se součástek z~knihovny LDraw.
 
 \subsubsection*{Model}
-  Entita \textit{Model} (tabulka \emph{\ref{table:entity:model}}) reprezentuje jednu součástku z~knihovny LDraw. Atributy entity vychází z~dat obsažených v~jednotlivých souborech knihovny a ze specifikace hlavičky, která byla představena v~podsekci \emph{\nameref{ldraw-hlavicka}} sekce \ref{reserse-ldraw}.
+  Entita \textit{Model} (tabulka \emph{\ref{table:entity:model}}) reprezentuje jednu součástku z~knihovny LDraw. Atributy entity vychází z~dat obsažených v~jednotlivých souborech knihovny a ze specifikace hlavičky, která byla představena v~podsekci \emph{\nameref{ldraw-hlavicka}} sekce \emph{\ref{reserse-ldraw}}.
     
   U~každého \textit{Modelu} musí být evidován jeho autor z~důvodu možnosti dodržení licence \gls{CC-BY} \cite{CC-BY}, pod kterou jsou zveřejněny všechny součástky v~oficiální knihovně LDraw. 
   
@@ -56,7 +56,7 @@ Entita \textit{Alias} reprezentuje alternativní identifikátor modelu, na kter�
 Uchování alternativních identifikátorů modelů slouží ke sjednocení tvarově identických součástek. Uchovávání každé součástky by z~hlediska 3D tisku nemělo žádný význam, protože jejich rozdíly (například potisk) zaniknou okamžikem převodu do formátu \textit{STL}.
 
 \subsubsection*{Subpart}
-Protože formát LDraw umožňuje i vytváření součástek typu \textit{Shortcut}, které jsou definovány v~podsekci \nameref{ldraw-typy-soucastek} sekce \emph{\ref{reserse-ldraw}}, je nutné mít možnost uchovat informaci o~vztahu mezi jednotlivými modely. Toto je umožněno entitou \textit{Subpart}. 
+Protože formát LDraw umožňuje i vytváření součástek typu \textit{Shortcut}, které jsou definovány v~podsekci \emph{\nameref{ldraw-typy-soucastek}} sekce \emph{\ref{reserse-ldraw}}, je nutné mít možnost uchovat informaci o~vztahu mezi jednotlivými modely. Toto je umožněno entitou \textit{Subpart}. 
 
 Entita \textit{Subpart} kromě vazeb na \textit{Model} obsahuje atribut specifikující četnost výskytu podsoučástky a vazbu na entitu \textit{Color}, která specifikuje barvu. 
 
