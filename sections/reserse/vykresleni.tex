@@ -6,7 +6,7 @@ Nejjednodušší možností pro vyrenderování obrázků součástek je využit
 Proto jsem se rozhodl využít jiné nástroje k~vyrenderování obrázků součástek a to sice programy stl2pov \autocite{stl2pov} a POV-Ray \autocite{povray}.
 
 \subsection{POV-Ray}
-POV-Ray je nástroj pro vykreslování trojrozměrných scén s~důrazem na co nejvyšší kvalitu výsledku. Celá scéna je popsána v~textovém souboru, který svou podobou připomíná jazyk C. POV-Ray takto popsanou scénu přečte, provede vykreslení a výsledek uloží ve formě rastrového obrázku. \autocite{root:povray} Podobu příkazu pro vykreslení scény na pozadí je možné vidět v~ukázce kódu \emph{\ref{priklad-povray}}. 
+Dle \autocite{root:povray} je POV-Ray nástroj pro vykreslování trojrozměrných scén s~důrazem na co nejvyšší kvalitu výsledku. Celá scéna je popsána v~textovém souboru, který svou podobou připomíná jazyk C. POV-Ray takto popsanou scénu přečte, provede vykreslení a výsledek uloží ve formě rastrového obrázku. Podobu příkazu pro vykreslení scény na pozadí je možné vidět v~ukázce kódu \emph{\ref{priklad-povray}}. 
 
 \begin{listing}[htbp]
         \begin{minted}{console}
@@ -15,5 +15,5 @@ $ povray +W900 +H600 +FN -D +I"input.pov" +O"output.png"
     \caption{Příklad použití programu POV-Ray \label{priklad-povray}}
 \end{listing}
 
-\subsection{stl2pov}
+\subsection{Stl2pov}
 Stl2pov je program umožňující převod \textit{\gls{STL}} souboru na POV-ray objekt, který je možné použít do specifikace POV-ray scény k~vykreslení.  
