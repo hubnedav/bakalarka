@@ -1,1 +1,23 @@
- 
+\subsection{Integrační testy}
+Integrační testy kontrolují, jak spolu třídy nebo moduly navzájem spolupracují. Testují, zda jeden modul splňuje požadavky jiného. Na rozdíl od jednotkových testů mohou využívat databázi a  souborový systém. \autocite{zdrojak:testy}
+
+Veškeré implementované integrační testy aplikace rozšiřují třídu \textit{BaseTest}, která připravuje prostředí pro běh integračních testů. Aby bylo možné integrační testy provést, jsou vytvořena testovací data. V Symfony je k tomuto účelu určena komponenta DoctrineFixturesBundle \autocite{doctrine:fixtures}. 
+
+Pomocí integračních testů je testována veškerá logika implementovaná v balíčku \textit{LoaderBundle} včetně testů volání programů třetích stran, využívaných k práci se soubory \textit{STL}.
+
+\begin{listing}[htbp]
+        \begin{minted}{php}
+ public function testConvertToStl()
+    {
+        $adapter = new Local(__DIR__.'/fixtures/ldraw');
+        $ldrawLibraryContext = new Filesystem($adapter);
+        $this->stlConverter->setLDrawLibraryContext($ldrawLibraryContext);
+
+        $this->assertNotNull($this->stlConverter->datToStl(__DIR__.'/fixtures/ldraw/parts/983.dat'));
+        
+        // Check if stl file exists
+        $this->assertTrue($this->filesystem->has('models/983.stl'));
+    }
+         \end{minted}
+    \caption{Příklad integračního testu \label{phpunit-integracni}}
+\end{listing}

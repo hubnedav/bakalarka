@@ -1,1 +1,27 @@
- 
+\subsection{Jednotkové testy}
+Jednotkové testy jsou zaměřeny na dílčí části aplikace. Měly by být maximálně izolované od ostatních částí. Hlavní podstatou jednotkových testů je kontrola jedné komponenty, bez ohledu na funkčnost ostatních komponent, u kterých předpokládáme, že fungují korektně. Z tohoto důvodu se při jednotkovém testování ostatní komponenty nahrazují falešnými objekty. \autocite{zdrojak:testy}
+
+Implementovaný jednotkový test příkazu pro načtení knihovny LDraw je možné vidět v ukázce kódu \emph{\ref{phpunit-jednotkovy}}.
+
+\begin{listing}[htbp]
+        \begin{minted}{php}
+public function testLoadAll()
+{
+    self::bootKernel();
+    $application = new Application(self::$kernel);
+
+    $modelLoader = $this->createMock(ModelLoader::class);
+    $modelLoader->expects($this->once())->method('loadAll');
+
+    $application->add(new LoadLdrawCommand(null,$modelLoader));
+
+    $command = $application->find('app:load:ldraw');
+
+    $tester = new CommandTester($command);
+    $tester->execute(
+        ['--ldraw' => 'path', '--all' => true]
+    );
+}
+        \end{minted}
+    \caption{Příklad jednotkového testu příkazu načtení knihovny LDraw\label{phpunit-jednotkovy}}
+\end{listing}
