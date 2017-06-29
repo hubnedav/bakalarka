@@ -1,0 +1,19 @@
+@startuml
+skinparam monochrome true
+top to bottom direction
+skinparam classAttributeIconSize 0
+
+abstract class BaseLoader {
+    +setOutput()
+}
+
+class ModelLoader {
+    
+}
+
+BaseLoader <|--- ModelLoader
+BaseLoader <|--- RebrickableLoader
+BaseLoader <|--- RelationLoader
+BaseLoader <|--- ImageLoader
+
+@enduml

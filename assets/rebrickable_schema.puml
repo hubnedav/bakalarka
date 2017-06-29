@@ -1,0 +1,67 @@
+@startuml
+skinparam defaultFontName DejaVu Sans
+skinparam monochrome true
+left to right direction 
+ 
+object inventories {
+    id 
+    version
+    set_num
+}
+
+object inventory_parts {
+    inventory_id
+    part_num
+    color_id
+    quantity
+    is_spare
+}
+
+object colors {
+    id
+    name
+    rgb
+    is_trans
+}
+
+object inventory_sets {
+    inventory_id
+    set_num
+    quantity
+}
+
+object parts {
+    part_num
+    name
+    part_cat_id
+}
+
+object sets {
+    id
+    name
+    year
+    theme_id
+    num_parts
+}
+
+object themes {
+    id
+    name
+    parent_id
+}
+
+object part_categories {
+    id
+    name
+}
+
+parts -- inventory_parts
+inventory_parts -- colors
+inventory_parts -- inventories
+inventory_sets -- inventories 
+inventories -- sets
+inventory_sets -- sets 
+sets -- themes
+parts -- part_categories
+
+@enduml

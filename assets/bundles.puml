@@ -1,0 +1,11 @@
+@startuml
+skinparam monochrome true
+
+[AppBundle]
+[FrontBundle] 
+[LoaderBundle]  
+
+[AppBundle] <.. [FrontBundle]
+[AppBundle] <.. [LoaderBundle]
+
+@enduml

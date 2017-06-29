@@ -1,0 +1,55 @@
+@startuml
+skinparam monochrome true
+
+package Brickset {
+    object Set {
+        id
+        number
+        numberVariant
+        name
+        year
+        theme
+        themeGroup
+        subtheme
+        pieces
+        minifigs
+        image
+        imageFilename
+        thumbnailURL
+        largeThumbnailURL
+        imageURL
+        bricksetURL
+        released
+        rating
+        description  
+    }
+
+    object Review {
+        author
+        datePosted
+        overallRating
+        parts
+        playability
+        valueForMoney
+        title
+        review
+        HTML
+    }
+
+    object Instruction {
+        url
+        description
+    }
+
+    object AdditionalImage {
+        url 
+        thumbnailUrl
+        largeThumbnailURL
+    }
+
+    Set "1" -- "*" Instruction
+    Set "1" -- "*" Review
+    Set "1" -- "*" AdditionalImage
+}
+
+@enduml

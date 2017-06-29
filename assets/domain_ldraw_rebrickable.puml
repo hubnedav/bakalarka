@@ -1,0 +1,97 @@
+@startuml
+skinparam monochrome true
+top to bottom direction
+
+object Color {
+    name
+    rgb
+    transparent
+}
+
+package "LDraw" {
+    object Model {
+        id
+        name
+        ' path: string
+        modified
+    }
+
+    object Alias {
+        id
+    }
+
+    object Category {
+        name
+    }
+
+    object Author {
+        name
+    }
+
+    object Keyword {
+        name
+    }
+
+    object Subpart {
+        quantity
+    }
+
+    Model "*" -- "*" Keyword 
+    Model "*" -- "1" Author : created by >
+    Model "*" -- "1" Category
+    Model "1" -- "*" Alias 
+
+    Model "1" -- "*" Subpart : is subpart of <
+    Model "1" -- "*" Subpart : has subpart >
+
+    Subpart "*" - "1" Color : in color > 
+}
+
+package "Rebrickable" {
+    object Inventory {
+        version
+    }
+
+    object Inventory_Part {
+        quantity
+        spare
+    }
+
+    object Inventory_Set {
+        quantity
+    }
+
+    object Part {
+        id
+        name
+    }
+
+    object Set {
+        id
+        name
+        year
+        partCount
+    }
+
+    object Theme {
+        name
+    }
+
+    object PartCategory {
+        name
+    }
+
+    Theme "1" -- "*" Theme : child of >
+    Part "1" -- "*" Inventory_Part : of <
+    Inventory_Part "*" - "1" Color : in color > 
+    Inventory_Part "*" -- "1" Inventory : in >
+    Inventory_Set "*" -- "1" Inventory : in >
+    Inventory "*" -- "1" Set : has <
+    Inventory_Set "*" -- "1" Set : of >
+    Set "*" - "1" Theme
+    Part "*" -- "1" PartCategory
+
+    Model "0..1" --- "*" Part : model of >
+}
+
+@enduml
